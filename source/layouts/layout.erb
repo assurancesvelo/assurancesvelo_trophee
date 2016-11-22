@@ -49,36 +49,48 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
         <ul class="nav navbar-nav navbar-right">
-          <li>
-            <% link_to "/epreuve.html" do %>
-            <i class="fa fa-flag-checkered"></i> Epreuves
-            <% end %>
-          </li>
-          <li>
-            <% link_to "/contact.html" do %>
-            <i class="fa fa-trophy"></i> Classement
-            <% end %>
-          </li>
-          <li>
-            <% link_to "/contact.html" do %>
-            <i class="fa fa-camera"></i> Photos
-            <% end %>
-          </li>
-          <li>
-           <% link_to "/contact.html" do %>
-           <i class="fa fa-file-text-o" aria-hidden="true"></i> Réglement
-           <% end %>
-         </li>
-       </ul>
-     </div><!-- /.navbar-collapse -->
-   </div><!-- /.container-fluid -->
- </nav>
 
 
- <%= yield %>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-flag-checkered"></i> Epreuves<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><% link_to "lapierrechany.html" do %>La Pierre Chany</a></li><% end %>
+            <li role="separator" class="divider"></li><li>La Jean François Bernard</li>
+            <li role="separator" class="divider"></li><li><a href="#">La Claudio Chiappuci</a></li>
+            <li role="separator" class="divider"></li><li><a href="#">La Lily Bergaud</a></li>
+            <li role="separator" class="divider"></li><li><a href="#">La Morvandelle</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <% link_to "/contact.html" do %>
+          <i class="fa fa-trophy"></i> Classement
+          <% end %>
+        </li>
+        <li>
+          <% link_to "/contact.html" do %>
+          <i class="fa fa-camera"></i> Photos
+          <% end %>
+        </li>
+        <li>
+         <% link_to "/contact.html" do %>
+         <i class="fa fa-file-text-o" aria-hidden="true"></i> Réglement
+         <% end %>
+       </li>
 
 
- <div id="footer">
+
+     </ul>
+
+   </div><!-- /.navbar-collapse -->
+ </div><!-- /.container-fluid -->
+</nav>
+
+
+<%= yield %>
+
+
+<div id="footer">
   <div class="container">
     <div class="row">
       <div class="col-xs-4">
@@ -90,12 +102,12 @@
         </ul>
         <div class="fb-like" data-href="https://www.facebook.com/assurancevelo/?fref=tshttps://www.facebook.com/assurancevelo/?fref=ts" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>      </div>
 
-      <div class="col-xs-8 text-right">
-        <p>Assurances Vélo <br> 58 rue de Buzenval <br> 92210 Saint Cloud <br><i class="fa fa-phone"></i> 01 47 71 85 49 </p>
+        <div class="col-xs-8 text-right">
+          <p>Assurances Vélo <br> 58 rue de Buzenval <br> 92210 Saint Cloud <br><i class="fa fa-phone"></i> 01 47 71 85 49 </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 </body>
 </html>

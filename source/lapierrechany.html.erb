@@ -1,0 +1,52 @@
+---
+title: La pierre chany
+---
+
+<div class="background_head"></div>
+
+<div class="epreuve">
+
+  <div class="container">
+    <div class="row">
+      <h1>La Pierre Chany</h1>
+      <div class="col-xs-6">
+        <div class="carte">
+          <div id="map" style="width: 100%; height: 500px;"></div>
+          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYoBt2ZxvwQev49mJkq7GbSBYXFsiocU4&callback=initMap"></script>
+          <script type="text/javascript">
+            var myLatlng = new google.maps.LatLng(45.1, 3.4833);
+
+            var myOptions = {
+              zoom: 6,
+              center: myLatlng,
+              mapTypeId: google.maps.MapTypeId.ROADMAP,
+              styles: [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
+            };
+
+            var map = new google.maps.Map(document.getElementById('map'), myOptions);
+            var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: "La Pierre Chany"
+            });
+          </script>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <h2>Desciption</h2>
+        <p>Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....</p>
+        <h2>Informations</h2>
+        <p> Grande Boucle : <strong>141km</strong></p>
+        <p> Dénivelé : <span class="label label-danger">2200m</span></p>
+        <p> Petite Boucle : <strong>109km</strong></p>
+        <p> Dénivelé : <span class="label label-sucess %>">1800m</span></p>
+        <p>Date : <strong>14/04/2017</strong></p>
+        <p>Prix à partir de :<span class="label label-warning">29€</span></p>
+        <p><br><a target="_blank" href="http://www.lapierrechany-43.fr/" class="btn-medium">inscription</a></p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
