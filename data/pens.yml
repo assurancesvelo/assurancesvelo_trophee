@@ -40,5 +40,9 @@
   url:
 - name: Photo Pro 36
   picture: photo_pro_36.png
-  summary: Les cpécialiste des photos <strong>de cyclisme</strong>
+  summary: Les spécialiste des photos <strong>de cyclisme</strong>
   url: http://www.photopro36.fr/
+- name: Embrocation
+  picture: embrocation.jpg
+  summary: Les meilleures crèmes <strong>pour cyclistes</strong>
+  url: http://www.embrocationsiamoise.com/
