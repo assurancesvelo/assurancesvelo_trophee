@@ -1,0 +1,12 @@
+---
+title: Les Epreuves
+---
+
+<div class="background_head" style=""></div>
+
+
+<div id="partenaire">
+  <% data.epreuves.each do |epreuve| %>
+  <%= partial(:epreuve, locals: {epreuve: epreuve}) %>
+  <% end %>
+</div>

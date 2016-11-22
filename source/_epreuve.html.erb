@@ -1,0 +1,41 @@
+
+<div class="container">
+  <div class="row">
+    <h1><%= epreuve.name %></h1>
+    <div class="col-xs-6">
+      <div class="carte">
+        <div id="map" style="width: 100%; height: 500px;"></div>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYoBt2ZxvwQev49mJkq7GbSBYXFsiocU4&callback=initMap"></script>
+        <script type="text/javascript">
+          var myLatlng = new google.maps.LatLng(<%= epreuve.latitude %>, <%= epreuve.longitude %>);
+
+          var myOptions = {
+            zoom: 6,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
+          };
+
+          var map = new google.maps.Map(document.getElementById('map'), myOptions);
+          var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: "<%= epreuve.name %>"
+          });
+        </script>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h2>Desciption</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nulla rerum in sed, minus quo vitae officiis molestiae totam assumenda repellendus quod eligendi recusandae mollitia cum tempora alias illo provident?</p>
+      <h2>Informations</h2>
+      <p> Grande Boucle : <strong><%= epreuve.long_distance %></strong></p>
+      <p> Dénivelé : <span class="label label-<%= epreuve.color_long_distance %>"><%= epreuve.long_differential %></span></p>
+      <p> Petite Boucle : <strong><%= epreuve.small_distance %></strong></p>
+      <p> Dénivelé : <span class="label label-<%= epreuve.color_small_distance %>"><%= epreuve.small_differential %></span></p>
+      <p>Date : <strong><%= epreuve.date %></strong></p>
+      <p>Prix à partir de :<span class="label label-<%= epreuve.price_color %>"><%= epreuve.price %></span></p>
+      <p><br><a target="_blank" href="<%= epreuve.link %>" class="btn-medium">inscription</a></p>
+    </div>
+  </div>
+</div>

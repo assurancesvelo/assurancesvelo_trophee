@@ -1,50 +1,40 @@
 - name: Fabricant de Roues
   picture: asterion.png
   summary: Montage de <strong>Roues</strong> personnalisées <br> à la française
-  price: Aller sur le site
-  color: danger
+  url: http://www.asterion-wheels.com/
 - name: Fabricant de Pédaliers
   picture: kronos.JPG
   summary: Les meilleurs <strong>smartest</strong> pédaliers du monde
-  price: Aller sur le site
-  color: primary
+  url: https://www.facebook.com/groups/104045939638875/
 - name: E-commerçant
   picture: occabike.png
   summary: Les meilleurs pièces vélos <strong>d'occasions </strong><br>au meilleurs prix
-  price: Aller sur le site
-  color: warning
+  url: http://occabike.fr/
 - name: Vélociste
   picture: legreves.jpg
   summary: Sans aucun doute <strong> le meilleur vélociste</strong><br>de toutParis.
-  price: Aller sur le site
-  color: success
+  url: http://team.legreves.free.fr/produits.php
 - name: Kalea Formation
   picture: kalea.jpg
   summary: Une formation en <strong>assurances</strong><br> demander à Kalea
-  price: Aller sur le site
-  color: primary
+  url: http://www.kalea-formation.com/
 - name: Swisslife
   picture: swisslife.png
   summary: Un besoin <strong>en assurance </strong> contacter <br>Frederic de Swisslife
-  price: Aller sur le site
-  color: danger
+  url: http://www.swisslife-direct.fr/frederic-dieu-houdan/agence-swisslife-assurances-houdan.html
 - name: Box Cycliste
   picture: pedaleur.png
   summary: Chaque mois recevez une <strong>box cycliste</strong> et découvrez de nouveaux produits
-  price: Aller sur le site
-  color: primary
+  url: http://www.pedaleur.fr/
 - name: Spiritueux
   picture: baristea.JPG
   summary: Découvrez une large gamme <strong>des meilleurs</strong> produits<br> spiritueux
-  price: Aller sur le site
-  color: warning
+  url: http://www.barspoon.fr/barista.php
 - name: Café de la Tour
   picture: cafe_de_la_tour.jpg
   summary: Les meilleurs cafés<strong>des meilleurs</strong> toute l'auvergne
-  price: Aller sur le site
-  color: warning
+  url:
 - name: Jean Francois Brioude
   picture: plombier.png
   summary: Un problème de plomberie <strong>Appelez JF</strong>
-  price: Aller sur le site
-  color: success
+  url:

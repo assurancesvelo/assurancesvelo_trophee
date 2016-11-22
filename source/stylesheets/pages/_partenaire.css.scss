@@ -1,4 +1,4 @@
-#pricing{
+#partenaire{
   padding: 1em 0;
   h1{
     font-family: $brandon-light, sans-serif;
@@ -23,5 +23,18 @@
       font-size: 1.1em;
       font-weight: 300;
     }
+    a{
+      color: $orange;
+      border: $orange 1px solid;
+      border-radius: 3px;
+      padding: 5px 10px 5px 10px;
+      opacity: 0.6;
+    }
+    a:hover{
+      opacity: 1;
+      text-decoration: none;
+      color: $orange;
+    }
   }
 }
+
