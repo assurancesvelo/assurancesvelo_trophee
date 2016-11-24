@@ -34,7 +34,7 @@
   picture: cafe_de_la_tour.jpg
   summary: Les meilleurs cafés<strong>des meilleurs</strong> toute l'auvergne
   url:
-- name: Jean Francois Brioude
+- name: JF Brioude
   picture: plombier.png
   summary: Un problème de plomberie <strong>Appelez JF</strong>
   url:
@@ -46,3 +46,16 @@
   picture: embrocation.jpg
   summary: Les meilleures crèmes <strong>pour cyclistes</strong>
   url: http://www.embrocationsiamoise.com/
+- name: Dmtex
+  picture: dmtex.jpg
+  summary: Fabricant de <strong> textiles </strong> cyclistes
+  url: http://www.dmtex-sport.com/
+- name: Goodicom
+  picture: goodicom.jpg
+  summary: Créateur de <strong> PLV </strong> pour vos événements
+  url: http://goodicom.fr/
+- name: Bv Cycles
+  picture: bv.jpg
+  summary: Le meilleur<strong> vélociste </strong> du 59
+  url: https://www.facebook.com/cyril.vigier.59/
+
