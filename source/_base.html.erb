@@ -1,44 +1,14 @@
 
-<div class="media">
-
-  <div class="media-body">
-    <div class="media-section">
-      <h2><%= base.name %> <br> <span class="label label-<%= base.statut_color %>"><%= base.statut%></span></h2>
-      <%= image_tag base.image_file %></h2>
-    </div>
-    <div class="media-section">
-      <h2>Description</h2>
+<div class="col-md-6">
+<div class="wrapper-product">
+  <% link_to base.link_inside do %>
+  <div class="product">
+    <%= image_tag base.image_file, :class => 'product-image hidden-xs' %>
+    <div class='product-body'>
+      <h3><%= base.name %></h3>
       <p><%= base.content %></p>
     </div>
   </div>
-
-  <div class="media-aside">
-
-    <div class="media-section">
-      <h2>Partager</h2>
-      <div class="share-links">
-        <a href="#" class="share-link bg-facebook fb-share">
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a href="#" class="share-link bg-twitter">
-          <i class="fa fa-twitter"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="media-section">
-      <h2>Infos</h2>
-      <p> Grande Boucle : <strong><%= base.long_distance %></strong>
-        <br>
-        Dénivelé : <span class="label label-<%= base.color_long_distance %>"><%= base.long_differential %></span></p>
-        <br>
-        <p> Petite Boucle : <strong><%= base.small_distance %></strong>
-          <br>
-          Dénivelé : <span class="label label-<%= base.color_small_distance %>"><%= base.small_differential %></span></p>
-          <p>Date : <strong><%= base.date %></strong></p>
-          <p>Prix à partir de :<span class="label label-<%= base.price_color %>"><%= base.price %></span></p>
-          <p><br><a target="_blank" href="<%= base.link %>" class="btn-medium">Plus d'info</a></p>
-        </div>
-      </div>
-    </div>
-
+  <% end %>
+</div>
+</div>

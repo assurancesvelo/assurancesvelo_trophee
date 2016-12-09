@@ -4,8 +4,8 @@ title: Trophee Assurances Vélo
 
 <div id="banner" class="smooth-scrollable">
   <div class="fade-and-slide">
-    <h1>Trophée Assurances Vélo</h1>
-    <p>Auvergne, Bourgogne et Centre</p>
+    <h1>Challenge Assurances Vélo</h1>
+    <p>On recompense les plus endurants</p>
     <br>
     <a href="#description" class="btn-medium">Voir le Trophée</a>
   </div>
@@ -13,21 +13,33 @@ title: Trophee Assurances Vélo
 
 
 <!-- <div class="cyclo" id="description"> -->
-<div class="container cyclo" id="description">
-  <div class="row">
-    <h1>Les Cyclos partenaires</h1>
-    <% data.bases.each do |base| %>
-    <div class="col-xs-12 col-md-6">
-      <%= partial(:base, locals: {base: base}) %>
-      <br>
+<div class="cyclo" id="description">
+  <h1>Les Cyclosportives Partenaires</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/carte.jpg
+  " alt="" style="width: 100%;">
+      </div>
+      <% data.bases.each do |base| %>
+        <%= partial(:base, locals: {base: base}) %>
+        <br>
+      <% end %>
     </div>
-    <% end %>
   </div>
 </div>
+
+<div class="banner">
+  <div class="banner-content">
+      <a class="btn btn-medium" style="text-align:center;" >Voir les lots à gagner</a>
+  </div>
+</div>
+
+
 <!-- </div> -->
 
 
-<div class="banner_strava ">
+<!-- <div class="banner_strava ">
   <div class="banner-content">
     <h1>Rejoindre la communauté de cyclistes</h1>
     <br>
@@ -38,16 +50,13 @@ title: Trophee Assurances Vélo
         </div>
       </div>
   </div>
-</div>
+</div> -->
 
 
-<div class="banner">
-  <div class="banner-content">
-    <h1>De nombreux lots à gagner</h1>
-    <br>
-    <a class="btn btn-medium" style="color:white; border: 3px solid white">Voir les lots</a>
-  </div>
-</div>
+
+
+
+
 
 <div class="container" id="partenaire">
   <div class="row">
