@@ -15,7 +15,7 @@ title: Trophee Assurances Vélo
   <p>Nous récemponsons les athètes les plus endurants de chaque cyclosportive, vous pouvezz vous instrire sur trava pour participer <br> aux challenges toutes l'année</p>
   <br>
   <ul class="list-inline">
-    <li><a href="#" class="btn-medium-grey">Voir les lots</a></li>
+    <li><a href="#" class="btn-medium-grey">Voir le réglement</a></li>
     <li><a href="https://www.strava.com/clubs/assurancesvelo" class="btn-medium">S'inscrire sur strava</a></li>
   </ul>
 </div>
@@ -36,6 +36,15 @@ title: Trophee Assurances Vélo
   </div>
 </div>
 
+<div class="baseline" id="description">
+  <h2> Les récompenses</h2>
+  <p>Vous pouvez découvrir ici l'ensemble des lots de nos partenaires</p>
+  <br>
+  <ul class="list-inline">
+    <li><a href="#" class="btn-medium">Voir les lots</a></li>
+  </ul>
+</div>
+
 
 <!-- </div> -->
 
@@ -54,6 +63,18 @@ title: Trophee Assurances Vélo
 </div> -->
 
 
+
+
+<div class="container" id="partenaire">
+  <div class="row">
+    <% data.pens.each do |pen| %>
+    <%= partial(:pen, locals: {pen: pen}) %>
+    <% end %>
+  </div>
+</div>
+
+<div style="background:#FBFBFB; padding-top: 2em; ">
+<h2 style="text-align:center">Nos Athèltes</h2>
 <div class="athletes">
   <div class="athlete-item">
     <%= image_tag 'quentin.png' %>
@@ -64,7 +85,6 @@ title: Trophee Assurances Vélo
   <a href="https://www.facebook.com/Quentin.Lafargue.Officiel/?fref=ts" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size:30px; color:#fb5403"></i></a>
   </div>
 </div>
-
 
 <div class="athletes">
   <div class="athelete-item">
@@ -87,17 +107,10 @@ title: Trophee Assurances Vélo
     <a href="https://www.facebook.com/profile.php?id=100012115532034&fref=ts" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size:30px; color:#fb5403"></i></a>
   </div>
 </div>
-
-
-
-<div class="container" id="partenaire">
-  <div class="row">
-    <h1>Les Partenaires</h1>
-    <% data.pens.each do |pen| %>
-    <%= partial(:pen, locals: {pen: pen}) %>
-    <% end %>
-  </div>
 </div>
+
+
+
 
 
 

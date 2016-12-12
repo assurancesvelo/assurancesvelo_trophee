@@ -9,7 +9,7 @@
   }
   .pen{
     background: white;
-    border: 1px solid $gray-light;
+    border: 1px solid #e5e5e5;
     padding: 1.3em;
     margin-bottom: 2em;
     img{
@@ -24,16 +24,17 @@
       font-weight: 300;
     }
     a{
-      color: $orange;
-      border: $orange 1px solid;
+      color: $btn-medium-color;
+      border: $btn-medium-color 1px solid;
       border-radius: 3px;
       padding: 5px 10px 5px 10px;
-      opacity: 0.6;
+      opacity:1;
     }
     a:hover{
-      opacity: 1;
       text-decoration: none;
-      color: $orange;
+      background-color:#ff3600;
+      color: white;
+      opacity: 1;
     }
   }
 }
