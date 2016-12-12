@@ -21,6 +21,12 @@
 .baseline{
   text-align:center;
   background:$gray-lighter;
+  padding:4em;
+}
+
+.recompenses{
+  text-align:center;
+  background:$gray-lighter;
   padding:1em 2em 8em 2em;
 }
 
@@ -211,6 +217,7 @@
   padding: 2em 2em 0em 2em ;
   background:white;
   color: black;
+  height: 100vh;
   p{
     color:$gray-light;
   }

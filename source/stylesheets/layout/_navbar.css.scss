@@ -1,10 +1,10 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: white;
-$navbar-hover-color: $yellow;
+$navbar-color: $gray-light;
+$navbar-hover-color: $orange;
 $navbar-font-family: $montserrat;
-$navbar-bg: transparent;
+$navbar-bg: white;
 
 /* -------------------------------------
  * Box model
@@ -44,6 +44,7 @@ $navbar-profile-border-width: 2px;
   border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
   min-height: 0;
   transition: background 0.4s ease;
+  border-bottom : 1px solid #999999;
 
   .navbar-nav > li > a,
   .navbar-nav > .open > a,
