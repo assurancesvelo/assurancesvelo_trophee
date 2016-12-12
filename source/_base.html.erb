@@ -1,14 +1,19 @@
 
 <div class="col-md-6">
-<div class="wrapper-product">
-  <% link_to base.link_inside do %>
-  <div class="product">
-    <%= image_tag base.image_file, :class => 'product-image hidden-xs' %>
-    <div class='product-body'>
-      <h3><%= base.name %></h3>
-      <p><%= base.content %></p>
+  <div class="wrapper-product">
+    <% link_to base.link_inside do %>
+    <div class="product">
+      <%= image_tag base.image_file, :class => 'product-image hidden-xs' %>
+      <div class='product-body'>
+        <ul class="list-inline">
+          <li><h3><%= base.name %></h3></li>
+          <li><p><span class="label label-<%= base.statut_color %>"><%= base.statut%></span></p></li>
+        </ul>
+        <p><%= base.date %></p>
+      </div>
     </div>
+    <% end %>
   </div>
-  <% end %>
 </div>
-</div>
+
+

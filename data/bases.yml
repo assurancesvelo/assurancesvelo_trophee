@@ -25,8 +25,8 @@
   color_long_distance: danger
   price: 30€
   price_color: warning
-  statut: fini
-  statut_color: danger
+  statut: à venir
+  statut_color: success
   date: 21/08/2016
   link: http://jeff.cyclosportive.pagesperso-orange.fr/pages/acceuil.html
 - name: La Claudio Chiappuci
@@ -55,8 +55,8 @@
   color_long_distance: danger
   price: 28€
   price_color: warning
-  statut: fini
-  statut_color: danger
+  statut: à venir
+  statut_color: success
   date: 17/07/2016
   link: https://www.facebook.com/veloclubdemauriac/
 - name: La Morvandelle
@@ -74,6 +74,78 @@
   statut_color: success
   date: 11/04/2017
   link: http://www.le-sportif.com/inscription/la-morvandelle-135-km-la-jean-paul-garde-la-grande-verriere-cyclisme-sur-route-09-04-2016.html
+- name: La Morvandelle
+  image_file: epreuve5.jpg
+  content: 140 km, toutes catégories  Mauriac, Pons, le Falgoux, Col d'Aulac, Trizac, Riom es Montagnes, Apchon, Col de Serre, Pas de Peyrol, Col de Néronne, Saint Paul de Salers, Saint Martin Valmerou ...
+  long_distance: 135km
+  small_distance: 104km
+  small_differential: non communiqué
+  long_differential: non communiqué
+  color_small_distance: success
+  color_long_distance: danger
+  price: 28€
+  price_color: warning
+  statut: à venir
+  statut_color: success
+  date: 11/04/2017
+  link: http://www.le-sportif.com/inscription/la-morvandelle-135-km-la-jean-paul-garde-la-grande-verriere-cyclisme-sur-route-09-04-2016.html
+- name: La Morvandelle
+  image_file: epreuve5.jpg
+  content: 140 km, toutes catégories  Mauriac, Pons, le Falgoux, Col d'Aulac, Trizac, Riom es Montagnes, Apchon, Col de Serre, Pas de Peyrol, Col de Néronne, Saint Paul de Salers, Saint Martin Valmerou ...
+  long_distance: 135km
+  small_distance: 104km
+  small_differential: non communiqué
+  long_differential: non communiqué
+  color_small_distance: success
+  color_long_distance: danger
+  price: 28€
+  price_color: warning
+  statut: à venir
+  statut_color: success
+  date: 11/04/2017
+  link: http://www.le-sportif.com/inscription/la-morvandelle-135-km-la-jean-paul-garde-la-grande-verriere-cyclisme-sur-route-09-04-2016.html
+- name: La Morvandelle
+  image_file: epreuve5.jpg
+  content: 140 km, toutes catégories  Mauriac, Pons, le Falgoux, Col d'Aulac, Trizac, Riom es Montagnes, Apchon, Col de Serre, Pas de Peyrol, Col de Néronne, Saint Paul de Salers, Saint Martin Valmerou ...
+  long_distance: 135km
+  small_distance: 104km
+  small_differential: non communiqué
+  long_differential: non communiqué
+  color_small_distance: success
+  color_long_distance: danger
+  price: 28€
+  price_color: warning
+  statut: fini
+  statut_color: danger
+  date: 11/04/2017
+  link: http://www.le-sportif.com/inscription/la-morvandelle-135-km-la-jean-paul-garde-la-grande-verriere-cyclisme-sur-route-09-04-2016.html
+- name: La Morvandelle
+  image_file: epreuve5.jpg
+  content: 140 km, toutes catégories  Mauriac, Pons, le Falgoux, Col d'Aulac, Trizac, Riom es Montagnes, Apchon, Col de Serre, Pas de Peyrol, Col de Néronne, Saint Paul de Salers, Saint Martin Valmerou ...
+  long_distance: 135km
+  small_distance: 104km
+  small_differential: non communiqué
+  long_differential: non communiqué
+  color_small_distance: success
+  color_long_distance: danger
+  price: 28€
+  price_color: warning
+  statut: fini
+  statut_color: danger
+  date: 11/04/2017
+  link: http://www.le-sportif.com/inscription/la-morvandelle-135-km-la-jean-paul-garde-la-grande-verriere-cyclisme-sur-route-09-04-2016.html
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

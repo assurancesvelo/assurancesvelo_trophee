@@ -1,0 +1,10 @@
+
+<div class="background_head"></div>
+
+<div class="container" id="partenaire">
+  <div class="row">
+    <% data.pens.each do |pen| %>
+    <%= partial(:pen, locals: {pen: pen}) %>
+    <% end %>
+  </div>
+</div>

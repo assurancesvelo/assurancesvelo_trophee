@@ -21,7 +21,15 @@
 .baseline{
   text-align:center;
   background:$gray-lighter;
-  padding:2em;
+  padding:1em 2em 8em 2em;
+}
+
+#img-partenaires{
+  position:relative;
+  top:-5em;
+  img{
+    border-radius:10px;
+  }
 }
 
 .card{
@@ -123,7 +131,7 @@
 .product-image {
   border-radius: 10px;
   margin-right: 20px;
-  width: 175px;
+  width: 110px;
 }
 
 
@@ -201,7 +209,7 @@
   justify-content:space-around;
   align-items:center;
   padding: 2em 2em 0em 2em ;
-  background:$gray-lighter;
+  background:white;
   color: black;
   p{
     color:$gray-light;

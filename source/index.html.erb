@@ -39,12 +39,15 @@ title: Trophee Assurances Vélo
 <div class="baseline" id="description">
   <h2> Les récompenses</h2>
   <p>Vous pouvez découvrir ici l'ensemble des lots de nos partenaires</p>
-  <br>
-  <ul class="list-inline">
-    <li><a href="#" class="btn-medium">Voir les lots</a></li>
-  </ul>
 </div>
 
+<div id="img-partenaires" style="text-align:center">
+  <img src="images/partenaires.jpg" alt="" style="width:700px">
+  <br><br>
+  <ul class="list-inline">
+    <li><a href="partenaires.html" class="btn-medium">Voir les lots</a></li>
+  </ul>
+</div>
 
 <!-- </div> -->
 
@@ -65,15 +68,9 @@ title: Trophee Assurances Vélo
 
 
 
-<div class="container" id="partenaire">
-  <div class="row">
-    <% data.pens.each do |pen| %>
-    <%= partial(:pen, locals: {pen: pen}) %>
-    <% end %>
-  </div>
-</div>
 
-<div style="background:#FBFBFB; padding-top: 2em; ">
+
+<div style="background:white; padding-top: 2em; ">
 <h2 style="text-align:center">Nos Athèltes</h2>
 <div class="athletes">
   <div class="athlete-item">
@@ -108,10 +105,6 @@ title: Trophee Assurances Vélo
   </div>
 </div>
 </div>
-
-
-
-
 
 
 <script>
