@@ -1,8 +1,8 @@
 #banner {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%), image-url('background.jpg');
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.15) 30%), image-url('background.jpg');
   color: white;
   text-align: center;
-  height:70vh !important;
+  height:100vh !important;
   display:flex;
   background-size: cover;
   align-items:center;
@@ -11,7 +11,6 @@
   h1 {
     font-size: 60px;
     color: white;
-    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   }
   p {
     font-size: 25px;
@@ -19,6 +18,11 @@
   }
 }
 
+.baseline{
+  text-align:center;
+  background:$gray-lighter;
+  padding:2em;
+}
 
 .card{
   padding: 10px;
@@ -95,6 +99,7 @@
   padding: 20px;
   border-radius: 3px;
   transition: all 0.15s ease;
+  background-color: $gray-lighter;
 }
 
 /* Body design */
@@ -105,6 +110,7 @@
   font-weight: bold;
   font-size: 23px;
   margin-top: 0;
+  color: $gray-dark;
 
 }
 .product-body p {
@@ -197,6 +203,9 @@
   padding: 2em 2em 0em 2em ;
   background:$gray-lighter;
   color: black;
+  p{
+    color:$gray-light;
+  }
 }
 
 
