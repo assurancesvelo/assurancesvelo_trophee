@@ -77,7 +77,7 @@
 
 
 .cyclo{
-  padding:2em;
+  padding:4em;
   background: #0f0f0f;
 
   h1 {
@@ -85,7 +85,6 @@
    padding-bottom: 1em;
    font-size: 40px;
    color: $gray-lighter;
-   font-family:$brandon-light;
  }
 }
 
@@ -195,8 +194,18 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
+.athletes{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
 
-
+.athlete-item{
+  flex: 0 0 500px;
+  img{
+    width: 900px;
+  }
+}
 
 
 
