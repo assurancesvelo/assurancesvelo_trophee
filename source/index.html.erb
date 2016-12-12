@@ -5,11 +5,11 @@ title: Trophee Assurances Vélo
 <div id="banner" class="smooth-scrollable">
   <div class="fade-and-slide">
     <h1>Challenge Assurances Vélo</h1>
-    <p>On recompense les plus endurants</p>
     <br>
     <a href="#description" class="btn-medium">Voir le Trophée</a>
   </div>
 </div>
+
 
 
 <!-- <div class="cyclo" id="description"> -->
@@ -18,11 +18,11 @@ title: Trophee Assurances Vélo
     <div class="row">
       <div class="col-md-6">
         <img src="images/carte.jpg
-  " alt="" style="width: 100%;">
+        " alt="" style="width: 100%;">
       </div>
       <% data.bases.each do |base| %>
-        <%= partial(:base, locals: {base: base}) %>
-        <br>
+      <%= partial(:base, locals: {base: base}) %>
+      <br>
       <% end %>
     </div>
   </div>
@@ -48,18 +48,37 @@ title: Trophee Assurances Vélo
 
 <div class="athletes">
   <div class="athlete-item">
-    <img src="images/quentin.jpg" alt="">
+    <%= image_tag 'quentin.png' %>
   </div>
   <div class="athelete-item">
     <h2>Quentin Lafargue</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, accusantium soluta sequi rerum possimus expedita earum aut ipsum? Tempore ipsa beatae eaque hic veritatis incidunt ut sapiente harum necessitatibus. Ea.</p>
+  <a href="https://www.facebook.com/Quentin.Lafargue.Officiel/?fref=ts" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size:30px; color:#fb5403"></i></a>
   </div>
 </div>
 
 
+<div class="athletes">
+  <div class="athelete-item">
+    <h2>Laurie Berthon</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, accusantium soluta sequi rerum possimus expedita earum aut ipsum? Tempore ipsa beatae eaque hic veritatis incidunt ut sapiente harum necessitatibus. Ea.</p>
+    <a href="https://www.facebook.com/Laurie-Berthon-701066549922118/?fref=ts" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size:30px; color:#fb5403"></i></a>
+  </div>
+  <div class="athlete-item">
+    <%= image_tag 'laurie.png' %>
+  </div>
+</div>
 
-
-
+<div class="athletes">
+  <div class="athlete-item">
+    <%= image_tag 'chavanon.png' %>
+  </div>
+  <div class="athelete-item">
+    <h2>jen Luc Chavanon</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, accusantium soluta sequi rerum possimus expedita earum aut ipsum? Tempore ipsa beatae eaque hic veritatis incidunt ut sapiente harum necessitatibus. Ea.</p>
+    <a href="https://www.facebook.com/profile.php?id=100012115532034&fref=ts" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size:30px; color:#fb5403"></i></a>
+  </div>
+</div>
 
 
 
@@ -67,7 +86,7 @@ title: Trophee Assurances Vélo
   <div class="row">
     <h1>Les Partenaires</h1>
     <% data.pens.each do |pen| %>
-      <%= partial(:pen, locals: {pen: pen}) %>
+    <%= partial(:pen, locals: {pen: pen}) %>
     <% end %>
   </div>
 </div>

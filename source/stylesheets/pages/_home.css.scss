@@ -53,6 +53,7 @@
   }
 }
 
+
 .partenaires{
   padding-top: 1em;
   text-align:center;
@@ -78,7 +79,6 @@
 
 .cyclo{
   padding:4em;
-  background: #0f0f0f;
 
   h1 {
    text-align:center;
@@ -89,15 +89,12 @@
 }
 
 
-
-
 .product {
   display: flex;
   align-items: center;
   padding: 20px;
   border-radius: 3px;
   transition: all 0.15s ease;
-  background:#242424;
 }
 
 /* Body design */
@@ -108,12 +105,11 @@
   font-weight: bold;
   font-size: 23px;
   margin-top: 0;
-  color: #D4D4D4;
 
 }
 .product-body p {
   font-weight: lighter;
-  color: #D4D4D4;
+  color: #999999;
   margin-bottom: 0;
 }
 
@@ -127,7 +123,7 @@
 
 /* Hover effects */
 .product:hover {
-  background: #2d2d2d;
+  background: #f7f7fa;
   cursor: pointer;
 }
 
@@ -198,12 +194,17 @@
   display:flex;
   justify-content:space-around;
   align-items:center;
+  padding: 2em 2em 0em 2em ;
+  background:$gray-lighter;
+  color: black;
 }
 
+
+
 .athlete-item{
-  flex: 0 0 500px;
+  flex: 0 0 10px;
   img{
-    width: 900px;
+    width: 50vw;
   }
 }
 
