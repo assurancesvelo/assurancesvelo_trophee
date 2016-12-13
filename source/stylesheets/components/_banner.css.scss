@@ -1,6 +1,5 @@
 .background_head{
   padding: 10em;
-  background-image: image-url('epreuve_background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -8,7 +7,6 @@
 .epreuve{
     padding: 2em;
     h1{
-    font-family: $brandon-light, sans-serif;
     font-size: 4em;
     line-height: 2em;
     text-align: center;

@@ -50,52 +50,48 @@
 
         <ul class="nav navbar-nav navbar-right">
 
-        <li>
-          <% link_to "/contact.html" do %>
-          Classement
-          <% end %>
-        </li>
-        <li>
-          <% link_to "/contact.html" do %>
-          Photos
-          <% end %>
-        </li>
-        <li>
-         <% link_to "/contact.html" do %>
-         Réglement
-         <% end %>
-       </li>
+          <li>
+            <% link_to "#" do %>
+            Classement
+            <% end %>
+          </li>
+          <li>
+            <% link_to "#" do %>
+            Photos
+            <% end %>
+          </li>
+          <li>
+           <% link_to "#" do %>
+           Réglement
+           <% end %>
+         </li>
 
 
 
-     </ul>
+       </ul>
 
-   </div><!-- /.navbar-collapse -->
- </div><!-- /.container-fluid -->
-</nav>
-
-
-<%= yield %>
+     </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+ </nav>
 
 
-<div id="footer">
+ <%= yield %>
+
+
+ <div id="footer" style="text-align: center">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4">
         <ul class="list-inline">
           <li><a target="_blank" href="https://www.instagram.com/assurances.velo/"><i class="fa fa-instagram"></i></a></li>
           <li><a target="_blank" href="https://www.facebook.com/assurancevelo/?fref=ts"><i class="fa fa-facebook"></i></a></li>
           <li><a target="_blank" href="https://twitter.com/AssurancesVelo"><i class="fa fa-twitter"></i></a></li>
-          <li></li>
         </ul>
-        <div class="fb-like" data-href="https://www.facebook.com/assurancevelo/?fref=tshttps://www.facebook.com/assurancevelo/?fref=ts" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>      </div>
-
-        <div class="col-xs-8 text-right">
-          <p>Assurances Vélo <br> 58 rue de Buzenval <br> 92210 Saint Cloud <br><i class="fa fa-phone"></i> 01 47 71 85 49 </p>
-        </div>
-      </div>
+        <p>contact@assurancesvelo.com | 2016 Challenge Assurances Vélo</p>
     </div>
   </div>
+
+
+</div>
 
 </body>
 </html>

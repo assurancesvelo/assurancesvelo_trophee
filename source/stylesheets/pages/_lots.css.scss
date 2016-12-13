@@ -1,27 +1,25 @@
-
-#partenaire{
-  padding: 1em 0;
-  h1{
-    font-family: $brandon-light, sans-serif;
-    font-size: 4em;
-    line-height: 2em;
-    text-align: center;
+  #lot-partenaire{
+      padding: 1em 0;
+      text-align: center;
+  h2{
+    font-size: 2em;
+    line-height: 1em;
     color: $gray-darker;
   }
-  .pen{
+
+
+  .lot{
     background: white;
-    border: 1px solid #e5e5e5;
-    padding: 1.3em;
     margin-bottom: 2em;
+    background:$gray-lighter;
     img{
-      margin: 1.5em auto;
-      max-height:100px;
+      with: 100%;
     }
     h2{
-      font-size: 1.3em;
+      font-size: 15px;
     }
     p{
-      font-size: 1.1em;
+      font-size: 13px;
       font-weight: 300;
     }
     a{
@@ -39,4 +37,15 @@
     }
   }
 }
-
+#ranking{
+  border-top:1px solid #e5e5e5;
+  padding: 1em 0 1em 0;
+  h2{
+    font-size:1.5em;
+    color:$orange;
+  }
+  p{
+    font-size: 1em;
+    color:$orange;
+  }
+}

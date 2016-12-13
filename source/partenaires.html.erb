@@ -1,10 +1,43 @@
 
-<div class="background_head"></div>
+<div class="background_head" style="background-image:url('images/header_partenaires.jpg');"></div>
+
+
 
 <div class="container" id="partenaire">
+<h2>Ils soutiennent le challenge</h2>
+<p>Vous voulez devenir partenaire ? Contactez nous</p>
+<br>
+<button type="button" class="btn btn-medium" data-toggle="modal" data-target="#myModal">Devenir Partenaire</button>
+
+<br>
+<br>
+<br>
   <div class="row">
     <% data.pens.each do |pen| %>
     <%= partial(:pen, locals: {pen: pen}) %>
     <% end %>
+  </div>
+</div>
+
+
+
+<!-- Small modal -->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Devenir Partenaire</h4>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo commodi, tempora impedit rem qui unde reprehenderit quam ex accusantium, quasi libero tenetur! Hic veritatis, amet. Veritatis, eum earum mollitia inventore.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-medium" data-dismiss="modal">Retour</button>
+      </div>
+    </div>
   </div>
 </div>

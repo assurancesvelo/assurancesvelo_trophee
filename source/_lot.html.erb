@@ -1,0 +1,19 @@
+<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+  <div class="lot">
+    <div class="row">
+      <div class="col-xs-3 col-sm-12">
+        <%= image_tag lot.picture, class: "img-responsive" %>
+      </div>
+      <div class="col-xs-9 col-sm-12">
+        <h2>
+        <strong><%= lot.name %></strong>
+        </h2>
+        <p><strong><%= lot.number %></strong> <%= lot.content %></p>
+        <br>
+        <div id="ranking">
+        <p>Lot pour : <strong><%= lot.ranking %></strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

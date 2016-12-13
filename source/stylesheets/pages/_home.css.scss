@@ -110,7 +110,7 @@
 .product {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 12.5px;
   border-radius: 3px;
   transition: all 0.15s ease;
   background-color: $gray-lighter;
@@ -131,6 +131,7 @@
   font-weight: lighter;
   color: #999999;
   margin-bottom: 0;
+  font-size: 13px;
 }
 
 /* Product image */
@@ -214,12 +215,21 @@
   display:flex;
   justify-content:space-around;
   align-items:center;
-  padding: 2em 2em 0em 2em ;
+  padding: 0em 2em 0em 2em ;
   background:white;
   color: black;
   height: 100vh;
   p{
     color:$gray-light;
+  }
+  a{
+    color: $orange;
+    font-size: 30px;
+    letter-spacing: 15px;
+    transition: color 0.5s ease;
+    &:hover{
+      color: black;
+    }
   }
 }
 
