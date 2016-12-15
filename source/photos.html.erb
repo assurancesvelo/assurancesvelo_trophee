@@ -1,0 +1,22 @@
+
+<div class="background_head" style="background-image:url('images/header_partenaires.jpg');"></div>
+
+
+
+<div class="container" style="text-align: center">
+<h2>Les photos du challenge</h2>
+<p>retrouver ici les photos de toutes les cyclos</p>
+<br>
+<a href="http://www.photopro36.fr/" target="_blank" class="btn btn-medium"> Acheter des photos</a>
+
+<br>
+<br>
+<br>
+  <div class="row">
+    <% data.photos.each do |photo| %>
+    <%= partial(:photo, locals: {photo: photo}) %>
+    <% end %>
+  </div>
+</div>
+
+
