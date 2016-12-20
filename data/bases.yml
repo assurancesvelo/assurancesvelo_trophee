@@ -15,7 +15,7 @@
   statut: à venir
   statut_color: success
   link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
+  link_inside: /lajacquesgouin.html
 - name: La Morvandelle
   etape: Etape 2
   lieu: La Grande Verrière (71)
@@ -33,7 +33,7 @@
   statut: à venir
   statut_color: success
   link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
+  link_inside: /lamorvandelle.html
 - name: La Velostar
   etape: Etape 3
   lieu: Breuillet (91)
@@ -51,7 +51,7 @@
   statut: à venir
   statut_color: success
   link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
+  link_inside: /lavelostar.html
 - name: La Cyclo des Boucles de la Marne
   etape: Etape 4
   lieu: Vertus (51)
@@ -69,7 +69,7 @@
   statut: à venir
   statut_color: success
   link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
+  link_inside: /lacyclodesbouclesdelamarne.html
 - name: La Claudio Chiappucci
   etape: Etape 5
   lieu: Arnay-le-Duc (21)
@@ -87,7 +87,7 @@
   statut: à venir
   statut_color: success
   link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
+  link_inside: #
 - name: Les Copains Cyfac
   etape: Etape 6
   lieu: Ambert (63)
@@ -105,7 +105,7 @@
   statut: à venir
   statut_color: success
   link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
+  link_inside: /lescopains.html
 - name: La Pierre Chany
   etape: Etape 7
   lieu: Langeac (43)
@@ -141,7 +141,7 @@
   statut: à venir
   statut_color: success
   link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
+  link_inside: /lajeanfrancoisbernard.html
 - name: Les Monts de l'Auxois
   etape: Etape 9
   lieu: Semur en Auxois (21)
@@ -159,7 +159,7 @@
   statut: à venir
   statut_color: success
   link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
+  link_inside: /lesmontsdelauxois.html
 
 
 
