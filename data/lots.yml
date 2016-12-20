@@ -1,23 +1,85 @@
+- picture: code_promo.jpg
+  name: Codes Promo Assurances Vélo
+  number: 1000 Codes Promo
+  content: à gagner
+  ranking: 1OO premiers de chaque cyclo
+- picture: code_promo_50.jpg
+  name: Promo -50%
+  number: -50%
+  content: sur Assurances Vélo à 1000€
+  ranking: 3 premiers de chaque caté
+- picture: gants.jpg
+  name: Gants Assurances Vélo
+  number: 10 Paires de gants
+  content: à gagner
+  ranking: tirage au sort
+- picture: chaussettes.jpg
+  name: Chaussettes Assurances Vélo
+  number: 30 Paires de chaussettes
+  content: à gagner
+  ranking: tirage au sort
+- picture: roue_asterion.jpg
+  name: Roues Astérion
+  number: 5 Paires des roues
+  content: Astétion à gagner
+  ranking: 5 premiers du Challenge
+- picture: baristea_cafe.jpg
+  name: Rhum Baristéa Café
+  number: 10 bouteilles
+  content: de rhum aromatisé
+  ranking: tirage au sort
+- picture: baristea_the.jpg
+  name: Rhum Baristéa Thé
+  number: 10 bouteilles
+  content: de rhum aromatisé
+  ranking: tirage au sort
 - picture: lot-pedaleur.jpg
   name: Box pédaleur
-  number: 3 box
+  number: 3 Box
   content: pédaleur à gagner
+  ranking: tirage au sort
+- picture: lot-embrocation.jpg
+  name: Crème Embrocation
+  number: 20 crèmes
+  content: Embrocation Siamoise à gagner
+  ranking: tirage au sort
+- picture: lot-velodrome.jpg
+  name: Vélodome National
+  number: 10 Babtèmes
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-greves.jpg
+  name: Casques Spécialized
+  number: 3 casques
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-occabike.jpg
+  name: Groupe Ultegra
+  number: 2 groupes
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-kronos.jpg
+  name: Plateaux Kronos
+  number: 10 plateaux
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-helpmybike.jpg
+  name: Révisions
+  number: 5 Révisions
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-bv.jpg
+  name: Etude Posturale
+  number: 3 Etudes posturales
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-cafedelatour.jpg
+  name: Apéros
+  number: 3 Apéros
+  content: à gagner
   ranking: 1er de chaque caté
-- picture: lot-pedaleur.jpg
-  name: Box pédaleur
-  number: 3 box
-  content: pédaleur à gagner
-  ranking: 1er de chaque caté
-- picture: lot-pedaleur.jpg
-  name: Box pédaleur
-  number: 3 box
-  content: pédaleur à gagner
-  ranking: 1er de chaque caté
-- picture: lot-pedaleur.jpg
-  name: Box pédaleur
-  number: 3 box
-  content: pédaleur à gagner
-  ranking: 1er de chaque caté
-
-
-
+- picture: lot-cafe.jpg
+  name: Café Barsitéa
+  number: 6 mois
+  content: de café à gagner
+  ranking: tirage au sort

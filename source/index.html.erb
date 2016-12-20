@@ -11,12 +11,12 @@ title: Trophee Assurances Vélo
 </div>
 
 <div class="baseline" id="description">
-  <h2> Les Cyclosportices partenaires</h2>
-  <p>Nous récemponsons les athètes les plus endurants de chaque cyclosportive, vous pouvezz vous instrire sur trava pour participer <br> aux challenges toutes l'année</p>
+  <h2> Les Etapes du Challenge</h2>
+  <p>Accumulez des kilomètres sur chaque Etapes pour tenter de gagner le Challenge !<br>Et inscrivez vous immédiatement sur Strava pour gagner des lots toute l'année dès janvier 2017</p>
   <br>
   <ul class="list-inline">
     <li><a href="#" class="btn-medium-grey">Voir le réglement</a></li>
-    <li><a href="https://www.strava.com/clubs/assurancesvelo" class="btn-medium">S'inscrire sur strava</a></li>
+    <li><a href="https://www.strava.com/clubs/assurancesvelo" target="_blank" class="btn-medium">S'inscrire sur strava</a></li>
   </ul>
 </div>
 
@@ -25,8 +25,27 @@ title: Trophee Assurances Vélo
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img src="images/carte.jpg
-        " alt="" style="width: 100%;">
+      <div class="carte">
+        <div id="map" style="width: 100%; height: 550px;"></div>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYoBt2ZxvwQev49mJkq7GbSBYXFsiocU4&callback=initMap"></script>
+        <script type="text/javascript">
+          var myLatlng = new google.maps.LatLng(45.1, 3.4833);
+
+          var myOptions = {
+            zoom: 6,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
+          };
+
+          var map = new google.maps.Map(document.getElementById('map'), myOptions);
+          var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: "La Pierre Chany"
+          });
+        </script>
+      </div>
       </div>
       <% data.bases.each do |base| %>
       <%= partial(:base, locals: {base: base}) %>
@@ -38,12 +57,12 @@ title: Trophee Assurances Vélo
 
 
 <div class="recompenses" id="description">
-  <h2> Les récompenses</h2>
-  <p>Vous pouvez découvrir ici l'ensemble des lots de nos partenaires</p>
+  <h2> Les Partenaires</h2>
+  <p>Consultez nos partenaires qui nous permettent de dynamiser le Challenge et découvrez les lots à gagner</p>
 </div>
 
 <div id="img-partenaires" style="text-align:center">
-  <img src="images/partenaires.jpg" alt="" style="width:700px">
+  <img src="images/partenaires.jpg" alt="" style="width:1000px">
   <br><br>
   <ul class="list-inline">
     <li><a href="partenaires.html" class="btn-medium-grey">Les partenaires</a></li>
@@ -69,14 +88,14 @@ title: Trophee Assurances Vélo
 
 
 <div style="background:white; padding-top: 2em;">
-<h2 style="text-align:center">Nos Athèltes</h2>
+<h2 style="text-align:center">La Parrains du Challenge</h2>
 <div class="athletes">
   <div class="athlete-item">
     <%= image_tag 'quentin.png' %>
   </div>
   <div class="athelete-item">
     <h2>Quentin Lafargue</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, accusantium soluta sequi rerum possimus expedita earum aut ipsum? Tempore ipsa beatae eaque hic veritatis incidunt ut sapiente harum necessitatibus. Ea.</p>
+    <p> Quentin soutient les Assurances Vélo depuis leurs création. Il a été plusieurs fois champion de France, d'Europe et médaillé d'or aux championnats du monde sur l'épreuve du kilomètre en 2016.</p>
   <a href="https://www.facebook.com/Quentin.Lafargue.Officiel/?fref=ts" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
   <a href="https://www.instagram.com/quentinlafargue/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
   <a href="https://twitter.com/quentinlafargue?lang=fr" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -87,7 +106,7 @@ title: Trophee Assurances Vélo
 <div class="athletes">
   <div class="athelete-item">
     <h2>Laurie Berthon</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, accusantium soluta sequi rerum possimus expedita earum aut ipsum? Tempore ipsa beatae eaque hic veritatis incidunt ut sapiente harum necessitatibus. Ea.</p>
+    <p> Après avoir été championne de France de l'omnium et troisième aux championnats du monde, Laurie a défendu les couleurs de la France aux derniers Jeux Olympiques de Rio.</p>
     <a href="https://www.facebook.com/Laurie-Berthon-701066549922118/?fref=ts" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
     <a href="https://www.instagram.com/laurie.berthon/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
     <a href="https://twitter.com/laurieberthon?lang=fr" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -102,8 +121,8 @@ title: Trophee Assurances Vélo
     <%= image_tag 'chavanon.png' %>
   </div>
   <div class="athelete-item">
-    <h2>jen Luc Chavanon</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, accusantium soluta sequi rerum possimus expedita earum aut ipsum? Tempore ipsa beatae eaque hic veritatis incidunt ut sapiente harum necessitatibus. Ea.</p>
+    <h2>Jean Luc Chavanon</h2>
+    <p>Eternel compétiteur dans l'âme, cyclo sportif de haut niveau et champion du monde master 2015. Vous aurez la chance de pouvoir le cotoyer et d'apprécier sa gentillesse sur certaines des épreuves du Challenge</p>
     <a href="https://www.facebook.com/profile.php?id=100012115532034&fref=ts" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size:30px; color:#fb5403"></i></a>
   </div>
 </div>

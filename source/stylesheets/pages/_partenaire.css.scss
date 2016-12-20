@@ -40,3 +40,33 @@
   }
 }
 
+.box-partenaires{
+
+  color:$gray-light;
+  background-color:$gray-lighter;
+  h3{
+    font-size:1em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    border-bottom: $gray-light 1px solid;
+  }
+
+  li{
+    list-style: none;
+    text-align: left;
+    p{
+      font-size: 12px;
+      display:inline-block;
+    }
+  }
+}
+
+.modal-contact{
+  padding:10px;
+  p{
+    font-size:11px;
+  }
+}
+
+
+

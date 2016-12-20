@@ -2,29 +2,29 @@
   picture: asterion.png
   summary: Montage de <strong>Roues</strong> personnalisées <br> à la française
   url: http://www.asterion-wheels.com/
-- name: Fabricant de Pédaliers
+- name: Fabricant de Plateaux
   picture: kronos.JPG
-  summary: Les meilleurs <strong>smartest</strong> pédaliers du monde
+  summary: Commandez votre plateau <strong> personnalisés </strong>
   url: https://www.facebook.com/groups/104045939638875/
 - name: E-commerçant
   picture: occabike.png
   summary: Les meilleurs pièces vélos <strong>d'occasions </strong><br>au meilleurs prix
   url: http://occabike.fr/
-- name: Vélociste
+- name: Cycles le Greves
   picture: legreves.jpg
-  summary: Sans aucun doute <strong> le meilleur vélociste</strong><br>de toutParis.
+  summary: Sans aucun doute <strong>le meilleur vélociste</strong><br>de tout Paris.
   url: http://team.legreves.free.fr/produits.php
 - name: Kalea Formation
   picture: kalea.jpg
-  summary: Une formation en <strong>assurances</strong><br> demander à Kalea
+  summary: Organise toutes vos <strong>formations</strong><br> professionnelles
   url: http://www.kalea-formation.com/
-- name: Swisslife
+- name: Frédéric Dieu
   picture: swisslife.png
-  summary: Un besoin <strong>en assurance </strong> contacter <br>Frederic de Swisslife
+  summary: Vous conseille pour vos <strong> assurances </strong> professionnelles
   url: http://www.swisslife-direct.fr/frederic-dieu-houdan/agence-swisslife-assurances-houdan.html
 - name: Box Cycliste
   picture: pedaleur.png
-  summary: Chaque mois recevez une <strong>box cycliste</strong> et découvrez de nouveaux produits
+  summary: Chaque mois recevez une <strong>box pédaleur</strong> et découvrez de nouveaux produits
   url: http://www.pedaleur.fr/
 - name: Spiritueux
   picture: baristea.JPG
@@ -32,7 +32,7 @@
   url: http://www.barspoon.fr/barista.php
 - name: Café de la Tour
   picture: cafe_de_la_tour.jpg
-  summary: Les meilleurs cafés<strong>des meilleurs</strong> toute l'auvergne
+  summary: La <strong>meilleure terrasse</strong> de toute la haute loire
   url:
 - name: JF Brioude
   picture: plombier.png
@@ -44,7 +44,7 @@
   url: http://www.photopro36.fr/
 - name: Embrocation
   picture: embrocation.jpg
-  summary: Les meilleures crèmes <strong>pour cyclistes</strong>
+  summary: Crèmes de <strong>récupération</strong> pour cycliste
   url: http://www.embrocationsiamoise.com/
 - name: Dmtex
   picture: dmtex.jpg
@@ -56,7 +56,7 @@
   url: http://goodicom.fr/
 - name: Bv Cycles
   picture: bv.jpg
-  summary: Le meilleur<strong> vélociste </strong> du 59
+  summary: Le meilleur<strong> vélociste </strong> de Charente Maritime
   url: https://www.facebook.com/cyril.vigier.59/
 - name: Vélodrome Saint Quentin
   picture: velodrome.jpg

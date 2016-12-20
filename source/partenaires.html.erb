@@ -4,14 +4,14 @@
 
 
 <div class="container" id="partenaire">
-<h2>Ils soutiennent le challenge</h2>
-<p>Vous voulez devenir partenaire ? Contactez nous</p>
-<br>
-<button type="button" class="btn btn-medium" data-toggle="modal" data-target="#myModal">Devenir Partenaire</button>
+  <h2>Les Partenaires du Challenge</h2>
+  <p>Vous voulez devenir partenaire ? Contactez nous !</p>
+  <br>
+  <button type="button" class="btn btn-medium" data-toggle="modal" data-target="#myModal">Devenir Partenaire</button>
 
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
   <div class="row">
     <% data.pens.each do |pen| %>
     <%= partial(:pen, locals: {pen: pen}) %>
@@ -33,7 +33,39 @@
         <h4 class="modal-title" id="myModalLabel">Devenir Partenaire</h4>
       </div>
       <div class="modal-body">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo commodi, tempora impedit rem qui unde reprehenderit quam ex accusantium, quasi libero tenetur! Hic veritatis, amet. Veritatis, eum earum mollitia inventore.
+        <div class="container-fluid bd-example-row">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="box-partenaires">
+                <h3> Offre Cyclo</h3>
+                <ul>
+                <li><i class="fa fa-facebook-square" aria-hidden="true" style="color:#3B5998"></i> <p>Pub sur Facebook</p></li>
+                  <li><i class="fa fa-twitter-square" aria-hidden="true" style="color:#2AA9E0"></i> <p>Pub sur Twitter</p></li>
+                  <li><i class="fa fa-instagram" aria-hidden="true" style="color:#D22F8C"></i> <p>Pub sur Instagram</p></li>
+                  <li><i class="fa fa-file-o" aria-hidden="true" style="color:#3B5998"></i> <p>Apparition sur Flyer</p></li>
+                  <li><i class="fa fa-eur" aria-hidden="true" style="color:#FF7453"></i> <p>Retour sur Investissement</p></li>
+                  <li><i class="fa fa-line-chart" aria-hidden="true" style="color:#069F21"></i> <p>Suivi des metrics</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="box-partenaires">
+                <h3> Offre Marque</h3>
+                <ul>
+                <li><i class="fa fa-facebook-square" aria-hidden="true" style="color:#3B5998"></i> <p>Pub sur Facebook</p></li>
+                  <li><i class="fa fa-twitter-square" aria-hidden="true" style="color:#2AA9E0"></i> <p>Pub sur Twitter</p></li>
+                  <li><i class="fa fa-instagram" aria-hidden="true" style="color:#D22F8C"></i> <p>Pub sur Instagram</p></li>
+                  <li><i class="fa fa-flag-checkered" aria-hidden="true" style="color: #FF5A5F"></i> <p>Stand sur les cyclos</p></li>
+                  <li><i class="fa fa-eur" aria-hidden="true" style="color:#FF7453"></i> <p>Retour sur Investissement</p></li>
+                  <li><i class="fa fa-line-chart" aria-hidden="true" style="color:#069F21"></i> <p>Suivi des metrics</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-contact">
+          <p>Si vous souhaitez devenir partenaire n'hésitez pas à nous contacter au <br> <strong>01 47 71 85 49</strong> ou par mail à <strong>contact@assurancesvelo.com</strong></p>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-medium" data-dismiss="modal">Retour</button>
