@@ -7,7 +7,7 @@
 jQuery(function($) {
     // Asynchronously Load the map API
     var script = document.createElement('script');
-    script.src = "//maps.googleapis.com/maps/api/js?sensor=false&callback=initialize";
+    script.src = "//maps.googleapis.com/maps/api/js?key=AIzaSyBYoBt2ZxvwQev49mJkq7GbSBYXFsiocU4&sensor=false&callback=initialize";
     document.body.appendChild(script);
 });
 
@@ -33,7 +33,7 @@ function initialize() {
         ['La Jacques Gouin, Mennecy', 48.566669,2.43333],
         ['La Morvandelle, La Grande Verrière', 46.9673,4.14356],
         ['La Vélostar, Breuillet', 48.5667, 2.1667],
-        ['La Cyclo des boucles de la Marne, Vertus', 48.9,4],
+        ['La Cyclo des boucles de la Marne, Montmirail',48.866669,3.53333],
         ['La Claudio Chiappucci, Arnay le Duc', 47.1333,4.4833],
         ['Les Copains Cyfac Ambert', 45.55,3.75],
         ['La Pierre Channy, Langeac', 45.1,3.4833],
