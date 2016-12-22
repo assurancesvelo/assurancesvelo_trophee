@@ -7,7 +7,7 @@
 jQuery(function($) {
     // Asynchronously Load the map API
     var script = document.createElement('script');
-    script.src = "//maps.googleapis.com/maps/api/js?key=AIzaSyBYoBt2ZxvwQev49mJkq7GbSBYXFsiocU4&sensor=false&callback=initialize";
+    // script.src = "//maps.googleapis.com/maps/api/js?key=AIzaSyBYoBt2ZxvwQev49mJkq7GbSBYXFsiocU4&sensor=false&callback=initialize";
     document.body.appendChild(script);
 });
 
