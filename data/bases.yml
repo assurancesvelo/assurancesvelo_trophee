@@ -28,7 +28,7 @@
   long_differential: 2200m
   color_small_distance: success
   color_long_distance: danger
-  price: 29€
+  price: 16€
   price_color: warning
   statut: à venir
   statut_color: success

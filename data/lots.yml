@@ -79,7 +79,28 @@
   content: à gagner
   ranking: 1er de chaque caté
 - picture: lot-cafe.jpg
-  name: Café Barsitéa
-  number: 6 mois
-  content: de café à gagner
+  name: Café Baristéa
+  number: 50 boites
+  content: de capsules de café
   ranking: tirage au sort
+- picture: lot-timesup.jpg
+  name: Times Up
+  number: 3 jeux
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-pokemon.jpg
+  name: Cartes Pokemon
+  number: 3 jeux
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-junglespeed.jpg
+  name: Jungle Speed
+  number: 3 jeux
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot-dooble.jpg
+  name: Dobble
+  number: 3 jeux
+  content: à gagner
+  ranking: tirage au sort
+
