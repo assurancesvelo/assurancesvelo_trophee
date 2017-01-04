@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <title>Les Copains Cyfac</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="stylesheets/all.css" rel="stylesheet" />
+  <script src="javascripts/all.js"></script>
+</head>
+
+<body class="lescopains">
+
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+
+  <div id="fb-root"></div>
+
+  <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+<a class="navbar-brand" href="./">        <img src="images/logo_noir.png" />
+</a>      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li>
+<a href="#">            Classement
+</a>          </li>
+          <li>
+<a href="photos.html">            Photos
+</a>          </li>
+          <li>
+<a href="reglement.html">           Réglement
+</a>         </li>
+
+
+
+       </ul>
+
+     </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+ </nav>
+
+
+ <div class="background_head" style="background-image:url('images/epreuve_background.jpg');"></div>
+
+
+<div class="epreuve">
+
+  <div class="container">
+    <div class="row">
+      <h1>Les Copains Cyfac</h1>
+      <div class="col-xs-6">
+        <div class="carte">
+          <div id="map" style="width: 100%; height: 500px;"></div>
+          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYoBt2ZxvwQev49mJkq7GbSBYXFsiocU4&callback=initMap"></script>
+          <script type="text/javascript">
+            var myLatlng = new google.maps.LatLng(45.55, 3.75);
+
+            var myOptions = {
+              zoom: 6,
+              center: myLatlng,
+              mapTypeId: google.maps.MapTypeId.ROADMAP,
+              styles: [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
+            };
+
+            var map = new google.maps.Map(document.getElementById('map'), myOptions);
+            var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: "Les Copains Cyfac"
+            });
+          </script>
+        </div>
+      </div>
+      <div class="col-xs-6">
+      <h2>Informations</h2>
+        <p> Grande Boucle : <strong>155km</strong></p>
+        <p> Dénivelé : <span class="label label-danger">3105m</span></p>
+        <p> Petite Boucle : <strong>115km</strong></p>
+        <p> Dénivelé : <span class="label label-success">2335m</span></p>
+        <p>Date : <strong>02/07/2017</strong></p>
+        <p>Prix à partir de :<span class="label label-warning">33€</span></p>
+        <p><br><a target="_blank" href="http://www.cyclolescopains.fr/" class="btn-medium">inscription</a></p>
+      </div>
+      <div class="col-xs-12">
+        <h2>Description</h2>
+      <p>
+        Cette date anniversaire a ouvert l’appétit de toute l’équipe d’organisation. Et autant vous le
+        dire de suite, vous allez carrément déguster ! En effet, l’épreuve vélo phare en Auvergne
+        compte sur votre participation pour célébrer l’événement comme il se doit.
+        Vous l’avez déjà faite, c’est extra… Vous savez donc plein de choses. Vous n’êtes pas encore
+        venu, pas grave, on accueille tous les gourmands de vélo.
+        Vous serez reçu comme un prince en pays d’Ambert.
+        Les circuits Rando sur 1, 2 ou 3 jours sont tout simplement superbes.
+        Le samedi, la belle échappée du Béal by Cyfac constitue un excellent hors d’œuvre et l’apéro
+        cyclo, un moment savoureux autour de la Fourme d’Ambert.
+        Le dimanche, c’est le plat de résistance avec 6 parcours aux petits oignons permettant de
+        parcourir les plus beaux détours du Livradois-Forez.
+        Cerise sur le gâteau, 750 bénévoles veilleront à votre sécurité et durant tout le week-end
+        des animations vous seront proposées avec le Village Santé, le village d’exposants et pour la
+        deuxième année le « Concours de Machines » avec 30 entreprises attendues.
+        Ensemble, nous porterons un toast à l’essentiel : la convivialité, marque de fabrique de notre
+        manifestation ainsi que la passion qui nous réunit !
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="wrapper_images_cyclo">
+  <div class="wrapper_images_cyclo_titre"">
+    <h2>Photos de l'édition précédente </h2>
+    <p>Crédit photos : David Frobert</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/lescopains1.png" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/lescopains2.png" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/lescopains3.png" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/lescopains4.png" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/lescopains5.png" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/lescopains6.png" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/lescopains7.png" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/lescopains8.png" alt="" class="img-responsive"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+ <div id="footer" style="text-align: center">
+  <div class="container">
+    <div class="row">
+        <ul class="list-inline">
+          <li><a target="_blank" href="https://www.instagram.com/assurances.velo/"><i class="fa fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/assurancevelo/?fref=ts"><i class="fa fa-facebook"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/AssurancesVelo"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+        <p>contact@assurancesvelo.com | 2016 Challenge Assurances Vélo</p>
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>

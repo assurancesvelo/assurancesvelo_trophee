@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <title>La Jacques Gouin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="stylesheets/all.css" rel="stylesheet" />
+  <script src="javascripts/all.js"></script>
+</head>
+
+<body class="lajacquesgouin">
+
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+
+  <div id="fb-root"></div>
+
+  <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+<a class="navbar-brand" href="./">        <img src="images/logo_noir.png" />
+</a>      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li>
+<a href="#">            Classement
+</a>          </li>
+          <li>
+<a href="photos.html">            Photos
+</a>          </li>
+          <li>
+<a href="reglement.html">           Réglement
+</a>         </li>
+
+
+
+       </ul>
+
+     </div><!-- /.navbar-collapse -->
+   </div><!-- /.container-fluid -->
+ </nav>
+
+
+ <div class="background_head" style="background-image:url('images/epreuve_background.jpg');"></div>
+
+
+<div class="epreuve">
+
+  <div class="container">
+    <div class="row">
+      <h1>La Jacques Gouin</h1>
+      <div class="col-xs-6">
+        <div class="carte">
+          <div id="map" style="width: 100%; height: 500px;"></div>
+          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYoBt2ZxvwQev49mJkq7GbSBYXFsiocU4&callback=initMap"></script>
+          <script type="text/javascript">
+            var myLatlng = new google.maps.LatLng(48.566669, 2.43333);
+
+            var myOptions = {
+              zoom: 6,
+              center: myLatlng,
+              mapTypeId: google.maps.MapTypeId.ROADMAP,
+              styles: [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
+            };
+
+            var map = new google.maps.Map(document.getElementById('map'), myOptions);
+            var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: "La Jacques Gouin"
+            });
+          </script>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <h2>Informations</h2>
+        <p> Grande Boucle : <strong>115km</strong></p>
+        <p> Dénivelé : <span class="label label-danger">1000m</span></p>
+        <p>Date : <strong>05/03/2017</strong></p>
+        <p>Prix à partir de :<span class="label label-warning">20€</span></p>
+        <p><br><a target="_blank" href="http://www.jacquesgouin.fr" class="btn-medium">inscription</a></p>
+      </div>
+      <div class="col-xs-12">
+        <h2>Desciption</h2>
+        <p>La saison route 2016 est terminée, nous voici tournés vers la saison 2017 avec une 1ère date à retenir : 5 Mars 2017 ! et pour sortir de l'hiver, rien de mieux que d'aller chercher le dépaysement.. !!
+        <br><br>
+        En effet, ce sera la 7 ème édition de la "nouvelle" JACQUES GOUIN version cyclosportive reprise et organisée depuis 2011 par Vélostar Organisation et son "président" Eric Ramos avec le concours du Team Cycliste Morangis.
+        Épreuve qui pour l'ensemble des coursiers Franciliens donne le coup d'envoi de la saison Route et qui est pour beaucoup en point de mire des entraînements hivernaux !
+        <br><br>
+        Le parcours sera quasi-identique à celui de 2016 qui a été très apprécié (115 km aux difficultés bien dosées) et, pour la première fois, vous découvrirez le parcours de l'épreuve en vidéo grâce à Kinomap !!
+        <br><br>
+        Magnifique parc boisé bien connu des essonniens et qui offre tous les avantages pour ce type d’événement (parkings, sanitaires, grande salle chauffée, scène, espace de jeux pour enfants...).véritable écrin de verdure de 108 ha, situé au Nord-Ouest de la Ville de Mennecy, ce parc communal fait l’objet de toute les attentions puisque son classement au titre des sites à protéger a été engagé auprès de la DIREN.
+        <br><br>
+        De petites améliorations ont été apportées au parcours pour assurer au mieux votre sécurité et vous faire découvrir de nouvelles routes essonniennes!!
+        <br><br>
+        Autre amélioration!! Fort du succès (750 participants en 2014), cette année, le chronométrage se fera via une puce accrochée à une plaque de cadre par Génialp!!
+        <br><br>
+        Tout cela en musique " country "
+        La " Country " trouve ses origines dans les musiques folkloriques importées d'Europe et du style gospel des noirs américains.La musique country qui compte des millions d'amateurs dans le monde mais surtout aux Etats Unis bénéficie d'une certaine popularité en Europe. De nombreux festivals de musique et de danse y sont consacrés à travers le monde et c'est cela que nous allons vous faire découvrir...!
+        La ville de Nashville dans le Tennessee constitue le coeur symbolique de la musique Country.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="wrapper_images_cyclo">
+  <div class="wrapper_images_cyclo_titre"">
+    <h2>Photos de l'édition précédente </h2>
+    <p></p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/jacquesgouin1.jpg" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/jacquesgouin2.jpg" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/jacquesgouin3.jpg" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/jacquesgouin4.jpg" alt="" class="img-responsive"></div>
+      <div class="col-xs-6 col-sm-4 col-md-3"><img src="photos_cyclo/jacquesgouin5.jpg" alt="" class="img-responsive"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+ <div id="footer" style="text-align: center">
+  <div class="container">
+    <div class="row">
+        <ul class="list-inline">
+          <li><a target="_blank" href="https://www.instagram.com/assurances.velo/"><i class="fa fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/assurancevelo/?fref=ts"><i class="fa fa-facebook"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/AssurancesVelo"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+        <p>contact@assurancesvelo.com | 2016 Challenge Assurances Vélo</p>
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>
