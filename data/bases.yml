@@ -1,111 +1,3 @@
-- name: La Jacques Gouin
-  etape: Etape 1
-  lieu: Mennecy (91)
-  date: 5 Mars
-  image_file: cyclo.png
-  content: La saison route 2016 est terminée, nous voici tournés vers la saison 2017 avec une 1ère date à retenir, 5 Mars 2017 ! et pour sortir de l'hiver, rien de mieux que d'aller chercher le dépaysement.. !! En effet, ce sera la 7 ème édition de la "nouvelle" JACQUES GOUIN version cyclosportive reprise et organisée depuis 2011 par Vélostar Organisation et son "président" Eric Ramos avec le concours du Team Cycliste Morangis. Épreuve qui pour l'ensemble des coursiers Franciliens donne le coup d'envoi de la saison Route et qui est pour beaucoup en point de mire des entraînements hivernaux !
-  long_distance: 141km
-  small_distance: 109km
-  small_differential: 1800m
-  long_differential: 2200m
-  color_small_distance: success
-  color_long_distance: danger
-  price: 29€
-  price_color: warning
-  statut: à venir
-  statut_color: success
-  link: http://www.lapierrechany-43.fr/
-  link_inside: /lajacquesgouin.html
-- name: La Morvandelle
-  etape: Etape 2
-  lieu: La Grande Verrière (71)
-  date: 1 Avril
-  image_file: cyclo.png
-  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
-  long_distance: 141km
-  small_distance: 109km
-  small_differential: 1800m
-  long_differential: 2200m
-  color_small_distance: success
-  color_long_distance: danger
-  price: 16€
-  price_color: warning
-  statut: à venir
-  statut_color: success
-  link: http://www.lapierrechany-43.fr/
-  link_inside: /lamorvandelle.html
-- name: La Velostar
-  etape: Etape 3
-  lieu: Breuillet (91)
-  date: 1 Mai
-  image_file: cyclo.png
-  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
-  long_distance: 141km
-  small_distance: 109km
-  small_differential: 1800m
-  long_differential: 2200m
-  color_small_distance: success
-  color_long_distance: danger
-  price: 29€
-  price_color: warning
-  statut: à venir
-  statut_color: success
-  link: http://www.lapierrechany-43.fr/
-  link_inside: /lavelostar.html
-- name: La Cyclo des Boucles de la Marne
-  etape: Etape 4
-  lieu: Montmirail (51)
-  date: 28 Mai
-  image_file: cyclo.png
-  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
-  long_distance: 141km
-  small_distance: 109km
-  small_differential: 1800m
-  long_differential: 2200m
-  color_small_distance: success
-  color_long_distance: danger
-  price: 29€
-  price_color: warning
-  statut: à venir
-  statut_color: success
-  link: http://www.lapierrechany-43.fr/
-  link_inside: /lacyclodesbouclesdelamarne.html
-- name: La Claudio Chiappucci
-  etape: Etape 5
-  lieu: Arnay-le-Duc (21)
-  date: 3 Juin
-  image_file: cyclo.png
-  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
-  long_distance: 141km
-  small_distance: 109km
-  small_differential: 1800m
-  long_differential: 2200m
-  color_small_distance: success
-  color_long_distance: danger
-  price: 29€
-  price_color: warning
-  statut: à venir
-  statut_color: success
-  link: http://www.lapierrechany-43.fr/
-  link_inside: /laclaudiocappucci.html
-- name: Les Copains Cyfac
-  etape: Etape 6
-  lieu: Ambert (63)
-  date: 30 Juin - 2 Juillet
-  image_file: cyclo.png
-  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
-  long_distance: 141km
-  small_distance: 109km
-  small_differential: 1800m
-  long_differential: 2200m
-  color_small_distance: success
-  color_long_distance: danger
-  price: 29€
-  price_color: warning
-  statut: à venir
-  statut_color: success
-  link: http://www.lapierrechany-43.fr/
-  link_inside: /lescopains.html
 - name: La Pierre Chany
   etape: Etape 7
   lieu: Langeac (43)
@@ -160,11 +52,114 @@
   statut_color: success
   link: http://www.lapierrechany-43.fr/
   link_inside: /lesmontsdelauxois.html
-
-
-
-
-
+- name: La Jacques Gouin
+  etape: Etape 1
+  lieu: Mennecy (91)
+  date: 5 Mars
+  image_file: cyclo.png
+  content: La saison route 2016 est terminée, nous voici tournés vers la saison 2017 avec une 1ère date à retenir, 5 Mars 2017 ! et pour sortir de l'hiver, rien de mieux que d'aller chercher le dépaysement.. !! En effet, ce sera la 7 ème édition de la "nouvelle" JACQUES GOUIN version cyclosportive reprise et organisée depuis 2011 par Vélostar Organisation et son "président" Eric Ramos avec le concours du Team Cycliste Morangis. Épreuve qui pour l'ensemble des coursiers Franciliens donne le coup d'envoi de la saison Route et qui est pour beaucoup en point de mire des entraînements hivernaux !
+  long_distance: 141km
+  small_distance: 109km
+  small_differential: 1800m
+  long_differential: 2200m
+  color_small_distance: success
+  color_long_distance: danger
+  price: 29€
+  price_color: warning
+  statut: finie
+  statut_color: warning
+  link: http://www.lapierrechany-43.fr/
+  link_inside: /lajacquesgouin.html
+- name: La Morvandelle
+  etape: Etape 2
+  lieu: La Grande Verrière (71)
+  date: 1 Avril
+  image_file: cyclo.png
+  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
+  long_distance: 141km
+  small_distance: 109km
+  small_differential: 1800m
+  long_differential: 2200m
+  color_small_distance: success
+  color_long_distance: danger
+  price: 16€
+  price_color: warning
+  statut: finie
+  statut_color: warning
+  link: http://www.lapierrechany-43.fr/
+  link_inside: /lamorvandelle.html
+- name: La Velostar
+  etape: Etape 3
+  lieu: Breuillet (91)
+  date: 1 Mai
+  image_file: cyclo.png
+  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
+  long_distance: 141km
+  small_distance: 109km
+  small_differential: 1800m
+  long_differential: 2200m
+  color_small_distance: success
+  color_long_distance: danger
+  price: 29€
+  price_color: warning
+  statut: finie
+  statut_color: warning
+  link: http://www.lapierrechany-43.fr/
+  link_inside: /lavelostar.html
+- name: La Cyclo des Boucles de la Marne
+  etape: Etape 4
+  lieu: Montmirail (51)s
+  date: 28 Mai
+  image_file: cyclo.png
+  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
+  long_distance: 141km
+  small_distance: 109km
+  small_differential: 1082m
+  long_differential: 1675m
+  color_small_distance: success
+  color_long_distance: danger
+  price: 29€
+  price_color: warning
+  statut: finie
+  statut_color: warning
+  link: http://www.lapierrechany-43.fr/
+  link_inside: /lacyclodesbouclesdelamarne.html
+- name: La Claudio Chiappucci
+  etape: Etape 5
+  lieu: Arnay-le-Duc (21)
+  date: 3 Juin
+  image_file: cyclo.png
+  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
+  long_distance: 141km
+  small_distance: 109km
+  small_differential: 1800m
+  long_differential: 2200m
+  color_small_distance: success
+  color_long_distance: danger
+  price: 29€
+  price_color: warning
+  statut: finie
+  statut_color: warning
+  link: http://www.lapierrechany-43.fr/
+  link_inside: /laclaudiocappucci.html
+- name: Les Copains Cyfac
+  etape: Etape 6
+  lieu: Ambert (63)
+  date: 30 Juin - 2 Juillet
+  image_file: cyclo.png
+  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
+  long_distance: 141km
+  small_distance: 109km
+  small_differential: 1800m
+  long_differential: 2200m
+  color_small_distance: success
+  color_long_distance: danger
+  price: 29€
+  price_color: warning
+  statut: finie
+  statut_color: warning
+  link: http://www.lapierrechany-43.fr/
+  link_inside: /lescopains.html
 
 
 

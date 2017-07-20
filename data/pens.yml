@@ -10,6 +10,18 @@
   picture: occabike.png
   summary: Les meilleurs pièces vélos <strong>d'occasions </strong><br>au meilleurs prix
   url: http://occabike.fr/
+- name: JBL France
+  picture: logo_JBL2.jpg
+  summary: Leader des <strong>enceinte portables bluetooth </strong> Large choix d'écouteur de sport
+  url: https://fr.jbl.com/
+- name: Gasp Cycling
+  picture: logo-gasp.jpg
+  summary: Marque française de <strong> vétements techniques </strong> de cycle
+  url: https://www.gaspcycling.com/
+- name: EasyIn
+  picture: logo_easyin.jpg
+  summary: Marque suisse  de <strong> portes vélo </strong> d'intérieur
+  url: www.porte-velo-easyin.com
 - name: Cycles le Greves
   picture: legreves.jpg
   summary: Sans aucun doute <strong>le meilleur vélociste</strong><br>de tout Paris.
@@ -20,24 +32,20 @@
   url: http://www.kalea-formation.com/
 - name: Frédéric Dieu
   picture: swisslife.png
-  summary: Vous conseille pour vos <strong> assurances </strong> professionnelles
+  summary: Vous conseille pour vos <strong> assurances </strong>
   url: http://www.swisslife-direct.fr/frederic-dieu-houdan/agence-swisslife-assurances-houdan.html
 - name: Box Cycliste
   picture: pedaleur.png
-  summary: Chaque mois recevez une <strong>box pédaleur</strong> et découvrez de nouveaux produits
+  summary: Chaque mois recevez une <strong>box pédaleur</strong>
   url: http://www.pedaleur.fr/
-- name: Spiritueux
-  picture: baristea.JPG
-  summary: Découvrez une large gamme <strong>des meilleurs</strong> produits<br> spiritueux
-  url: http://www.barspoon.fr/barista.php
 - name: Café de la Tour
   picture: cafe_de_la_tour.jpg
   summary: La <strong>meilleure terrasse</strong> de toute la haute loire
   url:
-- name: JF Brioude
-  picture: plombier.png
-  summary: Un problème de plomberie <strong>Appelez JF</strong>
-  url:
+- name: Vélodrome Saint Quentin
+  picture: velodrome.jpg
+  summary: Le plus beau <strong> vélodrome </strong> de France
+  url: http://www.velodrome-national.com/
 - name: Photo Pro 36
   picture: photo_pro_36.png
   summary: Les spécialiste des photos <strong>de cyclisme</strong>
@@ -50,20 +58,67 @@
   picture: dmtex.jpg
   summary: Fabricant de <strong> textiles </strong> cyclistes
   url: http://www.dmtex-sport.com/
-- name: Goodicom
-  picture: goodicom.jpg
-  summary: Créateur de <strong> PLV </strong> pour vos événements
-  url: http://goodicom.fr/
+- name: Rhums Arrangés
+  picture: baristea.JPG
+  summary: Créés par Victor Delpierre <strong>Champion du monde </strong> Baristéa et <strong>prix de l'innovation 2017</strong> TOPRUM
+  url:  http://www.tricoche-spirits.com/index.php/baristea-2
 - name: Bv Cycles
   picture: bv.jpg
   summary: Le meilleur<strong> vélociste </strong> de Charente Maritime
   url: https://www.facebook.com/cyril.vigier.59/
-- name: Vélodrome Saint Quentin
-  picture: velodrome.jpg
-  summary: Le plus beau <strong> vélodrome </strong> de France
-  url: http://www.velodrome-national.com/
-- name: Asmodee
-  picture: asmodee.png
-  summary: Edition de <strong> jeux </strong> de société
-  url: http://www.velodrome-national.com/
-
+- name: A&G Conseil
+  picture: aetgconseil_logo.png
+  summary: Cabinet de courtage sur <strong> Paris </strong>
+  url:
+- name: LCL
+  picture: lcl_logo.jpg
+  summary: <strong> LCL </strong> Banque et Assurance
+  url: https://particuliers.secure.lcl.fr/index.html
+- name: Goodicom
+  picture: goodicom.jpg
+  summary: Créateur de <strong> PLV </strong> pour vos événements
+  url: http://goodicom.fr/
+- name: Velco
+  picture: velco.png
+  summary: Le guidon connecté <strong> Wink Bar </strong>
+  url: http://ec2-35-157-249-81.eu-central-1.compute.amazonaws.com/fr/
+- name: Taracking
+  picture: logo_taracking.jpg
+  summary: Fabricant de <strong> barres de céréales </strong>
+  url: https://www.taracking.fr/accueil
+- name: Urban Challenge
+  picture: logo_urban_challenge.png
+  summary: <strong> Challenges sportifs </strong> à Paris et Lyon
+  url: http://www.urban-challenge.fr/
+- name: Cycle La Gazelle
+  picture: lagazelle.png
+  summary: Vélociste à Boulogne Billancourt
+  url: http://www.la-gazelle.com/
+- name: JF Brioude
+  picture: plombier.png
+  summary: Un problème de plomberie <strong>Appelez JF</strong>
+  url:
+- name: Abbie & Rose
+  picture: logo_abbie_et_rose.jpg
+  summary: Marque de chemises casuals pour Homme
+  url: https://abbieandrose.com/?lang=fr&utm_source=partner&utm_medium=challenge%20assurance
+- name: Head Cycles
+  picture: logo_head.jpg
+  summary: Fabricant de vélo route et Vtt
+  url: http://www.headcycles.fr/
+- name: Cycles Laurents
+  picture: cycleslaurent.png
+  summary: Vélociste au centre de Paris <strong> 75 ans d'éxpérences </strong> à votre service
+  url: http://www.cycleslaurent.com/fr/
+- name: All Bikers
+  picture: logo_allbikers.jpg
+  summary: Site de vente en ligne
+  url: https://all-bikers.com/
+- name: Vitaline
+  picture: logo_vitaline.png
+  summary: Le meilleur de la nutrition
+  url: https://vitaline.fr/
+- name: On Energy
+  picture: logo_energy.jpg
+  summary: Nutrition bio pour sportifs
+  url: https://www.on-energy.net/

@@ -1,3 +1,4 @@
+
 #banner {
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.15) 30%), image-url('background.jpg');
   color: white;
@@ -258,7 +259,30 @@
     }
 }
 
+.numbers{
+  padding:5em;
+  text-align:center;
+  background-image:linear-gradient(-225deg, rgba(0,0,0,0.3) 100%, rgba(0,0,0,0.15) 30%), url('../images/epreuve_background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  h6{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  p{
+    color:$orange;
+    font-weight: bold;
+    font-size: 40px;
+  }
+}
 
+.ava{
+  text-align:center;
+  border-top: $gray-light 1px solid;
+  padding: 1em;
+  padding-bottom:2em;
+}
 
 
 

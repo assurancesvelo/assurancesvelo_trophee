@@ -1,3 +1,168 @@
+- picture: lot_maillot_homme.jpg
+  name: Maillot Leader Homme
+  number: 90 Maillots
+  content: à gagner
+  ranking: 1er de chaque catégorie
+- picture: lot_maillot_femme.jpg
+  name: Maillot Leader Femme
+  number: 90 Maillots
+  content: à gagner
+  ranking: 1er de chaque catégorie
+- picture: lot_maillot_jaune.jpg
+  name: Maillot Jaune
+  number: 5 Maillots Jaunes LCL
+  content: à gagner
+  ranking: tirage au sort
+- picture: roue_asterion.jpg
+  name: Roues Astérion
+  number: 5 Paires des roues
+  content: Astétion à gagner
+  ranking: 5 premiers du Challenge
+- picture: fsc_cycleslaurent.jpg
+  name: Cadres FSC
+  number: 2 Cadres
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_velodrome.jpg
+  name: Vélodome National
+  number: 10 Baptèmes
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_pedaleur.jpg
+  name: Box pédaleur
+  number: 3 Box
+  content: pédaleur à gagner
+  ranking: tirage au sort
+- picture: lot_easyin.jpg
+  name: Porte vélo
+  number: 2 portes vélo
+  content: EasyIn à gagner
+  ranking: tirage au sort
+- picture: lot_gasp.jpg
+  name: Gasp Cycling
+  number: 20% de réduction
+  content: sur l'ensemble du site
+  ranking: tirage au sort
+- picture: lot_velco1.jpg
+  name: Velco
+  number: 27% de réduction
+  content: sur l'ensemble des cintres
+  ranking: tirage au sort
+- picture: Lot_head.jpg
+  name: Head
+  number: 10% de réduction
+  content: sur l'ensemble des vélos
+  ranking: tirage au sort
+- picture: lot_velco2.jpg
+  name: Velco
+  number: 10 cintres
+  content: offerts
+  ranking: aux vainqueurs du challenge
+- picture: lot_embrocation.jpg
+  name: Crème Embrocation
+  number: 20 crèmes
+  content: Embrocation Siamoise à gagner
+  ranking: tirage au sort
+- picture: lot_urban_cours.jpg
+  name: Cours Urban Challenge
+  number: 5 cartes 3 cours
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_urban_challenge_code_promo.jpg
+  name: Urban Challenge
+  number:  1er mois d'abonnement à 1€
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_JBL.jpg
+  name: Ecouteurs JBL Grip 200
+  number: 3 paires
+  content: à gagner
+  ranking: tirage au sort
+- picture: logo_JBL.jpg
+  name: -20% sur le site JBL France
+  number: 1000 codes promos
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_abbie_et_rose.jpg
+  name: -40% sur tout le E-Shop
+  number: 1500 codes promos
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_vitaline1.jpg
+  name: Boissons Nutritives
+  number: 20 boutielles
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_vitaline2.jpg
+  name: Boissons Nutritives
+  number: 3 shakers
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_vitaline3.jpg
+  name: Boissons Nutritives
+  number: 20 sachets nutritifs
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_allbikers.jpg
+  name: -15% sur toute la boutiques
+  number: 1500 codes promos réutilisables
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_allbikers2.jpg
+  name: Lunettes All Bikers
+  number: 20 paires
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_2_abbie_et_rose.jpg
+  name:  Chemises Abbie & Rose
+  number: 5 chemises
+  content: à gagner
+  ranking: tirage au sort
+- picture: chaussures_cycleslaurent.jpg
+  name: Chaussures Mavic Podium
+  number: 10 Paires de chaussures
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_lagazelle1.jpg
+  name: Chaussures Giro Treble 2 Noires
+  number: 10 Paires de chaussures
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_lagazelle2.jpg
+  name: Chaussures Giro Treble 2 Blanches
+  number: 10 Paires de chaussures
+  content: à gagner
+  ranking: tirage au sort
+- picture: casque_cycleslaurent.jpg
+  name: Casques Mavic CXR Ultimate
+  number: 10 Casques
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_greves.jpg
+  name: Casques Kask
+  number: 3 casques
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_taraking.jpg
+  name: Barres Taraking
+  number: -20% sur l'ensemble du site
+  content: à gagner
+  ranking: tirage au sort
+- picture: garde_boue.jpg
+  name: Garde Boue
+  number: 10 Gardes Boues
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_kronos.jpg
+  name: Plateaux Kronos
+  number: 10 plateaux
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_occabike.jpg
+  name: Groupe Ultegra 6800 11v
+  number: 2 groupes
+  content: à gagner
+  ranking: tirage au sort
 - picture: code_promo.jpg
   name: Codes Promo Assurances Vélo
   number: 1000 Codes Promo
@@ -18,88 +183,76 @@
   number: 30 Paires de chaussettes
   content: à gagner
   ranking: tirage au sort
-- picture: roue_asterion.jpg
-  name: Roues Astérion
-  number: 5 Paires des roues
-  content: Astétion à gagner
-  ranking: 5 premiers du Challenge
-- picture: baristea_cafe.jpg
+- picture: lot_baristea_cafe.jpg
   name: Rhum Baristéa Café
   number: 10 bouteilles
   content: de rhum aromatisé
   ranking: tirage au sort
-- picture: baristea_the.jpg
+- picture: lot_baristea_the.jpg
   name: Rhum Baristéa Thé
   number: 10 bouteilles
   content: de rhum aromatisé
   ranking: tirage au sort
-- picture: lot-pedaleur.jpg
-  name: Box pédaleur
-  number: 3 Box
-  content: pédaleur à gagner
-  ranking: tirage au sort
-- picture: lot-embrocation.jpg
-  name: Crème Embrocation
-  number: 20 crèmes
-  content: Embrocation Siamoise à gagner
-  ranking: tirage au sort
-- picture: lot-velodrome.jpg
-  name: Vélodome National
-  number: 10 Babtèmes
-  content: à gagner
-  ranking: tirage au sort
-- picture: lot-greves.jpg
-  name: Casques Spécialized
-  number: 3 casques
-  content: à gagner
-  ranking: tirage au sort
-- picture: lot-occabike.jpg
-  name: Groupe Ultegra
-  number: 2 groupes
-  content: à gagner
-  ranking: tirage au sort
-- picture: lot-kronos.jpg
-  name: Plateaux Kronos
-  number: 10 plateaux
-  content: à gagner
-  ranking: tirage au sort
-- picture: lot-helpmybike.jpg
-  name: Révisions
-  number: 5 Révisions
-  content: à gagner
-  ranking: tirage au sort
-- picture: lot-bv.jpg
-  name: Etude Posturale
-  number: 3 Etudes posturales
-  content: à gagner
-  ranking: tirage au sort
-- picture: lot-cafedelatour.jpg
-  name: Apéros
-  number: 3 Apéros
-  content: à gagner
-  ranking: 1er de chaque caté
-- picture: lot-cafe.jpg
+- picture: lot_baristea.jpg
   name: Café Baristéa
   number: 50 boites
   content: de capsules de café
   ranking: tirage au sort
-- picture: lot-timesup.jpg
-  name: Times Up
-  number: 3 jeux
+- picture: lot_helpmybike.jpg
+  name: Révisions
+  number: 5 Révisions
   content: à gagner
   ranking: tirage au sort
-- picture: lot-pokemon.jpg
-  name: Cartes Pokemon
-  number: 3 jeux
+- picture: lot_energy.jpg
+  name: -30% sur toute la boutique
+  number: 1500 code promo
   content: à gagner
   ranking: tirage au sort
-- picture: lot-junglespeed.jpg
-  name: Jungle Speed
-  number: 3 jeux
+- picture: lot_bv.jpg
+  name: Etude Posturale
+  number: 3 Etudes posturales
   content: à gagner
   ranking: tirage au sort
-- picture: lot-dooble.jpg
+- picture: garmin_cycleslaurent.jpg
+  name: Cartes Garmin
+  number: 5 Cartes Garmin City Navigation
+  content: à gagner
+  ranking: tirage au sort
+- picture: porteclef_goodicom.jpg
+  name: Portes Clefs GoodiCom
+  number: 100 Portes clefs
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_dooble.jpg
   name: Dobble
   number: 3 jeux
   content: à gagner
   ranking: tirage au sort
+- picture: lot_pokemon.jpg
+  name: Cartes Pokemon
+  number: 3 jeux
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_junglespeed.jpg
+  name: Jungle Speed
+  number: 3 jeux
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_cafedelatour.jpg
+  name: Apéros
+  number: 3 Apéros
+  content: à gagner
+  ranking: tirage au sort
+- picture: sac_lcl.jpg
+  name: Sac LCL
+  number: 100 Sacs
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_ptit_velo.jpg
+  name: Ptit Vélo
+  number: -20% sur toute la boutique
+  content: à gagner
+  ranking: tirage au sort
+
+
+

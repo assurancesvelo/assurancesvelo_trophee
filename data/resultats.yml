@@ -1,0 +1,19 @@
+- name: La Jaques Gouin
+  fichier: classements/jacques_gouin.xlsx
+  image: images/epreuve_background.jpg
+- name: La Morvandelle / Denis Jusseau
+  fichier: classements/Morvandelle_Denis_JUSSEAU.pdf
+  image: images/epreuve3.jpg
+- name: La Morvandelle / Jean Paul Garde
+  fichier: classements/Morvandelle_Jean_Paul_GARDE.pdf
+  image: images/epreuve2.jpg
+- name: La Vélostar
+  fichier: classements/Velostar.pdf
+  image: images/epreuve4.jpg
+- name: La Cyclo des boucles de la marnes
+  fichier: classements/boucledelamarne.pdf
+  image: images/epreuve5.jpg
+- name: La Claudio Chiappucci
+  fichier: http://www.cyclo-claudiochiappucci.fr/resultats.html
+  image: images/epreuve3.jpg
+

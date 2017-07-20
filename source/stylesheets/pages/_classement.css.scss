@@ -1,0 +1,150 @@
+.classement_leaders{
+  padding: 2em;
+  h1 {
+      text-align: center;
+    }
+  h2 {
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+  }
+}
+
+.classement_epreuves{
+        padding: 1em ;
+  h1 {
+      text-align: center;
+    }
+}
+
+.athlete_wrapper{
+  padding: 5px;
+}
+
+.athlete {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+  background-color: #f7f7fa;
+}
+
+/* Body design */
+.athlete-body {
+  flex: 1 1 auto;
+}
+.athlete-body h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0;
+}
+.athlete-body p {
+  font-weight: lighter;
+  font-size: 15px;
+  color: #999999;
+  margin-bottom: 0;
+}
+
+/* Product image */
+.athlete-image {
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 175px;
+}
+
+/* Upvote design */
+.athlete-upvote {
+  padding-right: 40px;
+  text-align: center;
+  transition: all 0.15s ease;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+.athlete-count {
+  margin: 0px 0 0;
+}
+
+/* Controls design */
+.athlete-controls {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+.athlete-controls p {
+  padding: 0 20px;
+  font-size: 13px;
+  color: $orange;
+  font-weight: bold;
+}
+.athlete-controls a:hover {
+  color: #D3473C !important
+}
+.athlete-controls-hidden a {
+  color: transparent;
+  font-size: 15px;
+  transition: all 0.15s ease;
+  border-color: transparent;
+}
+
+/* Hover effects */
+.athlete:hover {
+  background: #f7f7fa;
+  cursor: pointer;
+}
+.athlete-upvote:hover, .athlete-upvote.athlete-upvote-upvoted {
+  color: #5898f1;
+  cursor: pointer;
+}
+.athlete-upvote-upvoted .athlete-arrow {
+  border-bottom-color: #5898f1;
+}
+// .athlete:hover .athlete-upvote { transform: scale(1.2) }
+.athlete:hover .athlete-controls-hidden a { color: #E6E6E6 }
+.athlete-upvote:hover .athlete-arrow { border-bottom: 9px solid #5898f1 }
+
+.card-resultat {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+}
+.card-resultat-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-resultat-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.card-resultat-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-resultat-description h2 {
+  font-size: 24px;
+}
+.card-resultat-description p {
+  font-size: 13px;
+  }
+.card-resultat-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+.card-resultat-link:hover{
+  opacity: 0.1;
+}

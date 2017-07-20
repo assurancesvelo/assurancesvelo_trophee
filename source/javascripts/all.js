@@ -50,7 +50,7 @@ function initialize() {
         ['<div class="info_content">' +
         '<h3>La Vélostar</h3>' + ' <p>Breuillet 91650</p>' + '</div>'],
         ['<div class="info_content">' +
-        '<h3>La Cyclo des boucles de la Marne</h3>' + ' <p>Vertus 51130</p>' + '</div>'],
+        '<h3>La Cyclo des boucles de la Marne</h3>' + ' <p>Montmirail 51130</p>' + '</div>'],
         ['<div class="info_content">' +
         '<h3>La Claudio Chiappucci</h3>' + ' <p>Arnay le Duc 21230</p>' + '</div>'],
         ['<div class="info_content">' +

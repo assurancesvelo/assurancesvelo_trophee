@@ -1,0 +1,121 @@
+- last_name: Vercoutter
+  first_name: Jonas
+  rank: 1
+  cathe: 18/29 ans
+  distance: 250km
+- last_name: Guyot
+  first_name: Maxime
+  rank: 2
+  cathe: 18/29 ans
+  distance: 135km
+- last_name: Hollebeke
+  first_name: Emmanuel
+  rank: 3
+  cathe: 18/29 ans
+  distance: 135km
+- last_name: Destoop
+  first_name: Brecht
+  rank: 1
+  cathe: 30/39 ans
+  distance: 385km
+- last_name: Pannecoucke
+  first_name: Wesley
+  rank: 2
+  cathe: 30/39 ans
+  distance: 385km
+- last_name: Cheriaux
+  first_name: Brice
+  rank: 3
+  cathe: 30/39 ans
+  distance: 250km
+- last_name: Lebas
+  first_name: Sebastien
+  rank: 1
+  cathe: 40/49 ans
+  distance: 385km
+- last_name: De Vecchi
+  first_name: David
+  rank: 2
+  cathe: 40/49 ans
+  distance: 385km
+- last_name: Labussière
+  first_name: Jean Luc
+  rank: 3
+  cathe: 40/49 ans
+  distance: 385km
+- last_name: Gaudelet
+  first_name: Eddie
+  rank: 1
+  cathe: 50/59 ans
+  distance: 385km
+- last_name: Vaudran
+  first_name: Richard
+  rank: 2
+  cathe: 50/59 ans
+  distance: 385km
+- last_name: Roux
+  first_name: Pierre Yves
+  rank: 3
+  cathe: 50/59 ans
+  distance: 250km
+- last_name: Simon
+  first_name: Yves
+  rank: 1
+  cathe: 60+ ans
+  distance: 385km
+- last_name: Vergereau
+  first_name: Bernard
+  rank: 2
+  cathe: 60+ ans
+  distance: 250km
+- last_name: Louvel
+  first_name: Gilles
+  rank: 3
+  cathe: 60+ ans
+  distance: 250km
+- last_name: Lollierou
+  first_name: Elodie
+  rank: 1
+  cathe: F 18/39 ans
+  distance: 250km
+- last_name: Cochet
+  first_name: Camille
+  rank: 2
+  cathe: F 18/39 ans
+  distance: 250km
+- last_name: Barthe
+  first_name: Isabelle
+  rank: 3
+  cathe: F 18/39 ans
+  distance: 219km
+- last_name: Duru
+  first_name: Chlothilde
+  rank: 1
+  cathe: F 40+ ans
+  distance: 385km
+- last_name: Hagenbach
+  first_name: Sandrine
+  rank: 2
+  cathe: F 40+ ans
+  distance: 115km
+- last_name: Allu
+  first_name: Geneviève
+  rank: 3
+  cathe: F 40+ ans
+  distance: 115km
+- last_name: Gaillard
+  first_name: Christophe
+  rank: 1
+  cathe: Handisport
+  distance: 385km
+- last_name: Kebli
+  first_name: Abdennour
+  rank: 2
+  cathe: Handisport
+  distance: 135km
+- last_name: MORIER
+  first_name: Jean François
+  rank: 3
+  cathe: Handisport
+  distance: 135km
+
