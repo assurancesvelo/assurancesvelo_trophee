@@ -19,14 +19,10 @@
 <body class="<%= page_classes %>">
 
 
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+<script>window.jQuery || document.write('<scr' + 'ipt src="https://code.jquery.com/jquery-1.11.0.min.js"><\/sc' + 'ript>')</script>
+<script>window.$kol_jquery = window.jQuery</script>
+<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bottom_bar.js"></script>
+<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/101731/176819.js'></script>
 
 
   <div id="fb-root"></div>
@@ -50,7 +46,6 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
         <ul class="nav navbar-nav navbar-right">
-
           <li>
             <% link_to "/classement.html" do %>
             Classement
@@ -90,8 +85,6 @@
         <p>contact@assurancesvelo.com | 2016 Challenge Assurances Vélo</p>
     </div>
   </div>
-
-
 </div>
 
 </body>

@@ -6,9 +6,13 @@ title: Challenge Assurances Vélo
   <div class="fade-and-slide">
     <h1>Challenge Assurances Vélo</h1>
     <br>
-    <a href="#description" class="btn-medium">Voir le Trophée</a>
+      <a href="#description" class="btn-medium">Voir le Trophée</a>
   </div>
 </div>
+
+
+
+
 
 <div class="baseline" id="description">
   <h2> Les Etapes du Challenge</h2>
@@ -19,6 +23,8 @@ title: Challenge Assurances Vélo
     <li><a href="https://www.strava.com/clubs/assurancesvelo" target="_blank" class="btn-medium">S'inscrire sur strava</a></li>
   </ul>
 </div>
+
+
 
 <!-- <div class="cyclo" id="description"> -->
 <div class="cyclo" >
@@ -73,11 +79,14 @@ title: Challenge Assurances Vélo
 
 <div id="img-partenaires" style="text-align:center">
   <img src="images/partenaires.jpg" alt="" style="width:1000px">
-  <br><br>
-  <ul class="list-inline">
-    <li><a href="partenaires.html" class="btn-medium-grey">Les partenaires</a></li>
-    <li><a href="lots.html" class="btn-medium">les lots</a></li>
-  </ul>
+</div>
+
+<div class="container" id="lot-partenaire">
+  <div class="row">
+    <% data.lots.each do |lot| %>
+    <%= partial(:lot, locals: {lot: lot}) %>
+    <% end %>
+  </div>
 </div>
 
 <div class="numbers">
@@ -102,6 +111,14 @@ title: Challenge Assurances Vélo
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
 
 <!-- </div> -->
 
