@@ -1,39 +1,3 @@
-- name: La Pierre Chany
-  etape: Etape 7
-  lieu: Langeac (43)
-  date: 5 Aout
-  image_file: cyclo.png
-  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
-  long_distance: 141km
-  small_distance: 109km
-  small_differential: 1800m
-  long_differential: 2200m
-  color_small_distance: success
-  color_long_distance: danger
-  price: 29€
-  price_color: warning
-  statut: à venir
-  statut_color: success
-  link: http://www.lapierrechany-43.fr/
-  link_inside: /lapierrechany.html
-- name: La Jean François Bernard
-  etape: Etape 8
-  lieu: Corbigny (58)
-  date: 20 Aout
-  image_file: cyclo.png
-  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
-  long_distance: 141km
-  small_distance: 109km
-  small_differential: 1800m
-  long_differential: 2200m
-  color_small_distance: success
-  color_long_distance: danger
-  price: 29€
-  price_color: warning
-  statut: à venir
-  statut_color: success
-  link: http://www.lapierrechany-43.fr/
-  link_inside: /lajeanfrancoisbernard.html
 - name: Les Monts de l'Auxois
   etape: Etape 9
   lieu: Semur en Auxois (21)
@@ -160,6 +124,42 @@
   statut_color: warning
   link: http://www.lapierrechany-43.fr/
   link_inside: /lescopains.html
+- name: La Pierre Chany
+  etape: Etape 7
+  lieu: Langeac (43)
+  date: 5 Aout
+  image_file: cyclo.png
+  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
+  long_distance: 141km
+  small_distance: 109km
+  small_differential: 1800m
+  long_differential: 2200m
+  color_small_distance: success
+  color_long_distance: danger
+  price: 29€
+  price_color: warning
+  statut: finie
+  statut_color: warning
+  link: http://www.lapierrechany-43.fr/
+  link_inside: /lapierrechany.html
+- name: La Jean François Bernard
+  etape: Etape 8
+  lieu: Corbigny (58)
+  date: 20 Aout
+  image_file: cyclo.png
+  content: Il y aura foule à à Langeac, au coeur de l'auvergne le 6 aout prochain. En effet l'epreuve de cyclosportive la Pierre Chany que tous les passionnés connaissent depuis déjà 20 ans, continuera bel et bien à exister grâce à ....
+  long_distance: 141km
+  small_distance: 109km
+  small_differential: 1800m
+  long_differential: 2200m
+  color_small_distance: success
+  color_long_distance: danger
+  price: 29€
+  price_color: warning
+  statut: finie
+  statut_color: warning
+  link: http://www.lapierrechany-43.fr/
+  link_inside: /lajeanfrancoisbernard.html
 
 
 

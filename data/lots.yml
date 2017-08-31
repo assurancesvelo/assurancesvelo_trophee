@@ -144,7 +144,7 @@
   content: à gagner
   ranking: tirage au sort
 - picture: lot_taraking.jpg
-  name: Barres Taraking
+  name: Barres Taracking
   number: -20% sur l'ensemble du site
   content: à gagner
   ranking: tirage au sort
@@ -253,6 +253,38 @@
   number: -20% sur toute la boutique
   content: à gagner
   ranking: tirage au sort
+- picture: lot_ptit_velo_2.jpg
+  name: Ptit Vélo
+  number: 10 Maillots
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_faguo.jpg
+  name: Faguo
+  number: 1 sac Faguo Cycling Marine
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_sporthem.jpg
+  name: Sporthem
+  number: 25% de réduction sur tout le site
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_nats_up_2.jpg
+  name: Nat's Up
+  number: -15% sur toute la boutique
+  content: à gagner
+  ranking: tirage au sort
+- picture: lot_nats_up_1.jpg
+  name: Nat's Up
+  number: 20 compléments équilibre musculaire & récuperation
+  content: à gagner
+  ranking: tirage au sort
+- picture: logo_nats_up.jpg
+  name: Nat's Up
+  number:  1000 codes promo -40% sur toute la boutique
+  content: à gagner
+  ranking: tirage au sort
+
+
 
 
 
